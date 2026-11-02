@@ -1,0 +1,9 @@
+{
+ "name": "retained-file-missing",
+ "kind": "mutation",
+ "of": "toolgate-production",
+ "what": "inputs.jsonl absent from this copy",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

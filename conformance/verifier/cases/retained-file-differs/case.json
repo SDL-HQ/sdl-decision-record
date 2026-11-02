@@ -1,0 +1,9 @@
+{
+ "name": "retained-file-differs",
+ "kind": "mutation",
+ "of": "toolgate-production",
+ "what": "policy.json has one byte appended; its digest no longer matches",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

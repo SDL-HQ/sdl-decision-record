@@ -1,0 +1,9 @@
+{
+ "name": "counts-wrong-resigned",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "counts.decisions off by one and the record re-signed",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "name": "witness-altered",
+ "kind": "mutation",
+ "of": "stream-hour1-witnessed",
+ "what": "the witness statement supplied names a different payload_hash (case options point at an altered copy)",
+ "options": {
+  "registry": "keys/registry.json",
+  "witness": "inputs/stream-hour1.witness-altered.json",
+  "witness_registry": "keys/witnesses.json"
+ }
+}

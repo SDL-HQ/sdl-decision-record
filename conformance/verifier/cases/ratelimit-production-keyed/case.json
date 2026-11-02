@@ -1,0 +1,8 @@
+{
+ "name": "ratelimit-production-keyed",
+ "kind": "committed record",
+ "source": "examples/out/ratelimit-production-keyed",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "name": "classrouter-benchmark",
+ "kind": "committed record",
+ "source": "examples/out/classrouter-benchmark",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

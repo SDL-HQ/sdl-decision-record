@@ -1,0 +1,8 @@
+{
+ "name": "toolgate-production",
+ "kind": "committed record",
+ "source": "examples/out/toolgate-production",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

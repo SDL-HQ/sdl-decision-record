@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "by_outcome": {
+      "ALLOW": 10,
+      "DENY": 9
+    },
+    "decisions": 19
+  },
+  "decider": {
+    "id": "toolgate",
+    "outcomes": [
+      "ALLOW",
+      "DENY"
+    ],
+    "version": "1.0.0"
+  },
+  "format": "sdl-decision-record",
+  "format_version": 2,
+  "issued_at": "2026-10-18T04:00:00Z",
+  "ledger": {
+    "path": "decisions.jsonl",
+    "row_count": 19,
+    "terminal_hash": "sha256:5ab50ce02996b6b28a1ecf873278ab389613591b808384f4ffb0712419953f77"
+  },
+  "payload_hash": "sha256:892bfaac4f6ee22ec961f2f03382de9fdcda3a979fa7855913ad5bc0f5d31e99",
+  "policy_digests": [
+    "sha256:052cf913bae828db7e0566f5eadd7a481c55999d0e2b932ed9d92c806ce6ffc7"
+  ],
+  "profile": "production",
+  "record_id": "toolgate-hour1",
+  "retained": {
+    "inputs.jsonl": "sha256:dd0e6f8e21584b22e8724f56983755c0f445bddde66dfe19f1a20c554c9290a3",
+    "policy.json": "sha256:052cf913bae828db7e0566f5eadd7a481c55999d0e2b932ed9d92c806ce6ffc7"
+  },
+  "signature": "s8H5LCF/xPFcjx+YmdWjUpH0FQE02OoE2Z6kjyCZ/LGVTwkpWGaynLoiHIeBXyUs6Vrg3RPpS5S2x0i/sifOCQ==",
+  "signing_key_id": "example-2026-10",
+  "stream": {
+    "first_decision": 1,
+    "prev_record_hash": null,
+    "seq": 1,
+    "stream_id": "toolgate-traffic"
+  }
+}

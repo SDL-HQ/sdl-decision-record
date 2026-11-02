@@ -1,0 +1,18 @@
+examples/acceptance/out/truncated
+
+  OK      document       format_version 2 shape, and payload_hash recomputes from the canonical payload
+  OK      signing_trust  key 'example-2026-10' is active in the registry
+  OK      signature      the signature verifies over the payload
+  OK      chain          18 rows re-derive from GENESIS to the signed terminal hash
+  OK      decisions      18 rows written, by outcome {'ALLOW': 9, 'DENY': 9}, one decider, 1 policy; a count of what the producer wrote, not of what happened
+  OK      profile        the rows support the declared profile 'production'
+  n/a     correctness    the production profile carries no correctness property: the rows have no labels and the record claims none
+  OK      retained       3 retained file(s) present with their digests, inputs match the rows, policy matches the rows
+  n/a     replay         not requested; pass --replay <decider module> to re-decide the retained inputs
+  OK      invocation     every one of the 18 rows carries a decision the decider signed under ['example-decider-2026-10'] at decision time, bound to this record and sequence; the producer could not have written these rows without the decider
+  OK      stream         first record of stream 'acceptance'; nothing prior to link to
+  FAILED  completeness   refuted: the producer signed a receipt for decision seq 20 of this run and the record has 18 rows, so at least 2 acknowledged decision(s) are not in it
+  FAILED  receipts       receipt-000020.json: the producer acknowledged decision seq 20 of this run at 2026-10-18T01:00:19Z; the record has 18 rows
+  n/a     witness        no witness statement supplied; a record witnesses nothing about itself
+
+VERDICT: FAILED

@@ -1,0 +1,9 @@
+{
+ "name": "signed-by-revoked-key",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "signed by the revoked key; the registry does not list this payload_hash",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

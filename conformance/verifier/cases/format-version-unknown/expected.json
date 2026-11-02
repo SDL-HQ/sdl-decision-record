@@ -1,0 +1,14 @@
+{
+ "exit_code": 1,
+ "properties": {
+  "chain": "unknown",
+  "correctness": "unknown",
+  "decisions": "unknown",
+  "document": "unknown",
+  "profile": "unknown",
+  "retained": "unknown",
+  "signature": "unknown",
+  "signing_trust": "unknown"
+ },
+ "verdict": "NOT ESTABLISHED"
+}

@@ -1,0 +1,55 @@
+{
+ "agree_decision_reason_and_error_presence": 25188,
+ "allow_where_corpus_expects_deny": 0,
+ "by_outcome": {
+  "ALLOW": 15742,
+  "DENY": 29674
+ },
+ "corpus": "cedar-integration-tests corpus-tests.tar.gz",
+ "corpus_files_digested": 22708,
+ "deny_where_corpus_expects_allow": 8382,
+ "disagree": 20228,
+ "disagreement_error_kinds": [
+  [
+   "failed to parse schema from request",
+   6836
+  ],
+  [
+   "policy parse errors:\n`duration` is not a valid function",
+   2816
+  ],
+  [
+   "failed to parse entities from:\n[{\"uid\": {\"type\": \"r::r::r::u",
+   1376
+  ],
+  [
+   "failed to parse entities from:\n[{\"uid\": {\"type\": \"Action\", \"",
+   1360
+  ],
+  [
+   "failed to parse entities from:\n[{\"uid\": {\"type\": \"D53333333V",
+   992
+  ],
+  [
+   "failed to parse entities from:\n[{\"uid\": {\"type\": \"a\", \"id\": ",
+   952
+  ],
+  [
+   "policy parse errors:\nentity tags are not supported in this b",
+   616
+  ],
+  [
+   "policy parse errors:\n`datetime` is not a valid function",
+   576
+  ]
+ ],
+ "engine": "cedarpy-4.1.0",
+ "generated_utc": "2026-10-20T02:33:29Z",
+ "of_which_error_presence_differs": 17862,
+ "of_which_reason_differs": 20228,
+ "of_which_without_engine_error": 0,
+ "pin": "b157547fb8856911b293b7214768922c731878de",
+ "requests": 45416,
+ "seconds": 72.6,
+ "tests": 5677
+}

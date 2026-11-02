@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+examples/scratch/
+.pytest_cache/
+# The forgeries are built, not published, with one exception. F5 is the record
+# that passes every check in this repository and is still wrong, so it is the
+# boundary section's claim as a runnable artefact rather than a sentence. A
+# reader who runs the four that fail and never reaches the one that passes
+# leaves thinking the format closes a gap it only names. It is tracked where
+# forge.py writes it, not copied somewhere publishable, because a second copy
+# of an artefact can drift from its generator; a test holds the tracked
+# bytes against what forge.py reproduces. Its two registries come with it or
+# it cannot be verified at all.
+experiments/rederivability/out/*
+!experiments/rederivability/out/f5-input-fabricated/
+!experiments/rederivability/out/registry.json
+!experiments/rederivability/out/deciders.json

@@ -1,0 +1,51 @@
+{
+  "benchmark": {
+    "agree": 39,
+    "by_label": {
+      "ALLOW": {
+        "ALLOW": 15
+      },
+      "DENY": {
+        "ALLOW": 1,
+        "DENY": 24
+      }
+    },
+    "disagree": 1,
+    "labelled": 40
+  },
+  "counts": {
+    "by_outcome": {
+      "ALLOW": 16,
+      "DENY": 24
+    },
+    "decisions": 40
+  },
+  "decider": {
+    "id": "opa-authorizer",
+    "outcomes": [
+      "ALLOW",
+      "DENY"
+    ],
+    "version": "opa-1.21.3"
+  },
+  "format": "sdl-decision-record",
+  "format_version": 1,
+  "issued_at": "2026-10-21T01:00:00Z",
+  "ledger": {
+    "path": "decisions.jsonl",
+    "row_count": 40,
+    "terminal_hash": "sha256:8b28a4560b8c72c6b1a21629e3a7e7a6eadd09c14a66ec31c0b322989dcc7839"
+  },
+  "payload_hash": "sha256:1e0b7b4c072119a2c536b022764c32bac0c9f2bf834a5301c457a2f046d45572",
+  "policy_digests": [
+    "sha256:a9c24a860c609119d9be8c016e8cee0b2ed9d35a21132a517cc9468f9fe5b1ed"
+  ],
+  "profile": "benchmark",
+  "record_id": "opa-toolcalls-canonical-2026-10-21",
+  "retained": {
+    "inputs.jsonl": "sha256:3a510448d4d8cb349f4de279adf60aa1baaa7a188162a8eaa0db4e0ac96011e1",
+    "policy.json": "sha256:a9c24a860c609119d9be8c016e8cee0b2ed9d35a21132a517cc9468f9fe5b1ed"
+  },
+  "signature": "AhaNP2P/AJp8/hgCxM4qvsKdO2Jte6aRJMX6lU4heC7zEGIsGfoJapnZ/uKsiF9TQFIPwM3xytAaShGdFcKgBQ==",
+  "signing_key_id": "example-2026-10"
+}

@@ -1,0 +1,10 @@
+{
+ "registry_version": 1,
+ "keys": [
+  {
+   "key_id": "rederivability-test-producer",
+   "status": "active",
+   "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA1+ViCZ0kzPGaprFXCW3FXqni3H7kLKNB1UoUaXpya2k=\n-----END PUBLIC KEY-----\n"
+  }
+ ]
+}

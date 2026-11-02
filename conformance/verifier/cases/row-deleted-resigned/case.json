@@ -1,0 +1,9 @@
+{
+ "name": "row-deleted-resigned",
+ "kind": "mutation",
+ "of": "toolgate-production",
+ "what": "row 7 deleted, the rest renumbered, counts re-derived, record re-signed: the completeness limit",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

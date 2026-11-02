@@ -1,0 +1,8 @@
+{
+  "kind": "sdl-witness-statement",
+  "payload_hash": "sha256:5c9b06eed6d84c94f8b6c35ce71d1af265ecbe019b8dc2261999481ace431bc4",
+  "record_payload_hash": "sha256:3e9c4017adbe5b274f65f2babba379d698385b943081909382a3b67a47261f01",
+  "signature": "ZWFkKxkcQvaCCK6/ZC3W35n5vuE0jeFdZfSL/F3lJ8QXDOEA1HttPgnrP/6HMXNNqsa5G8aYw27z7Up6+4B8Dw==",
+  "witness_key_id": "independent-auditor-2026-10",
+  "witnessed_at": "2026-10-21T03:05:00Z"
+}

@@ -1,0 +1,9 @@
+{
+ "name": "rows-rehashed-forward-not-resigned",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "row 4 edited and every hash recomputed forward; the record still signs the old terminal hash",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

@@ -1,0 +1,50 @@
+{
+  "benchmark": {
+    "agree": 12,
+    "by_label": {
+      "ALLOW": {
+        "ALLOW": 6
+      },
+      "DENY": {
+        "DENY": 6
+      }
+    },
+    "disagree": 0,
+    "labelled": 12
+  },
+  "counts": {
+    "by_outcome": {
+      "ALLOW": 6,
+      "DENY": 6
+    },
+    "decisions": 12
+  },
+  "decider": {
+    "id": "toolgate",
+    "outcomes": [
+      "ALLOW",
+      "DENY"
+    ],
+    "version": "1.0.0"
+  },
+  "format": "sdl-decision-record",
+  "format_version": 1,
+  "issued_at": "2026-10-18T04:00:00Z",
+  "ledger": {
+    "path": "decisions.jsonl",
+    "row_count": 12,
+    "terminal_hash": "sha256:1fc8084a43358d4d8ce791f4dba05762a942960a8fd330dcdadb939dc1e3f3ab"
+  },
+  "payload_hash": "sha256:324ead06d8949fb3571035999f66dbec0d79761e872ff90f0bcce5eb162930c2",
+  "policy_digests": [
+    "sha256:052cf913bae828db7e0566f5eadd7a481c55999d0e2b932ed9d92c806ce6ffc7"
+  ],
+  "profile": "benchmark",
+  "record_id": "toolgate-suite-001",
+  "retained": {
+    "inputs.jsonl": "sha256:5d859551bfda5630be51cfe492545a00ada393e19a8e0e6360ce4fe827fdc6cd",
+    "policy.json": "sha256:052cf913bae828db7e0566f5eadd7a481c55999d0e2b932ed9d92c806ce6ffc7"
+  },
+  "signature": "xChUkWtWqYpRwqWOVzfhjY5Op7DCTnIBIIP74ARXUGGNOin35SP/24YvrU9ceA86ccb0HwjchH+VhVWo3+AvCQ==",
+  "signing_key_id": "no-such-key"
+}

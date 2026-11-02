@@ -1,0 +1,12 @@
+{"input": {"args": {"city": "Auckland"}, "tool": "get_weather"}, "seq": 1}
+{"input": {"args": {"order_id": 1042}, "tool": "lookup_order"}, "seq": 2}
+{"input": {"args": {"email": "a@example.invalid", "order_id": 1042, "resend": false}, "tool": "send_receipt"}, "seq": 3}
+{"input": {"args": {}, "tool": "delete_all_orders"}, "seq": 4}
+{"input": {"args": {"order_id": "1042; drop table orders"}, "tool": "lookup_order"}, "seq": 5}
+{"input": {"args": {"city": "Auckland", "debug_dump_env": true}, "tool": "get_weather"}, "seq": 6}
+{"input": {"args": {"email": "a@example.invalid", "order_id": 1042}, "tool": "send_receipt"}, "seq": 7}
+{"input": {"args": {"order_id": true}, "tool": "lookup_order"}, "seq": 8}
+{"input": {"args": {"city": "Wellington"}, "tool": "get_weather"}, "seq": 9}
+{"input": {"args": "Auckland", "tool": "get_weather"}, "seq": 10}
+{"input": {"args": {"city": "Dan's redundant abundant city"}, "tool": "get_weather"}, "seq": 11}
+{"input": {"args": {"order_id": 7}, "tool": "lookup_order"}, "seq": 12}

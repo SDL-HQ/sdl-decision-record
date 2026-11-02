@@ -1,0 +1,454 @@
+{
+ "record": "examples/cedar/out/conformance-drt-sample",
+ "record_names": "cedar-conformance@cedarpy-4.12.2",
+ "corpus_pin": "b157547fb8856911b293b7214768922c731878de",
+ "engines": [
+  {
+   "engine": "cedarpy-0.4.1",
+   "corpus_agree": 24161,
+   "corpus_requests": 45416,
+   "allow_where_corpus_expects_deny": 0,
+   "deny_where_corpus_expects_allow": 7800,
+   "disagreements_without_engine_error": 7,
+   "verifier_replay": "unknown",
+   "verifier_verdict": "NOT ESTABLISHED",
+   "verifier_exit": 1,
+   "forced_rows_differ": 1135,
+   "forced_rows": 2400,
+   "forced_flips": {
+    "ALLOW->DENY": 447,
+    "DENY->ALLOW": 0,
+    "reason-only": 688
+   }
+  },
+  {
+   "engine": "cedarpy-4.1.0",
+   "corpus_agree": 25188,
+   "corpus_requests": 45416,
+   "allow_where_corpus_expects_deny": 0,
+   "deny_where_corpus_expects_allow": 8382,
+   "disagreements_without_engine_error": 0,
+   "verifier_replay": "unknown",
+   "verifier_verdict": "NOT ESTABLISHED",
+   "verifier_exit": 1,
+   "forced_rows_differ": 1074,
+   "forced_rows": 2400,
+   "forced_flips": {
+    "ALLOW->DENY": 463,
+    "DENY->ALLOW": 0,
+    "reason-only": 611
+   }
+  },
+  {
+   "engine": "cedarpy-4.8.7",
+   "corpus_agree": 45416,
+   "corpus_requests": 45416,
+   "allow_where_corpus_expects_deny": 0,
+   "deny_where_corpus_expects_allow": 0,
+   "disagreements_without_engine_error": 0,
+   "verifier_replay": "unknown",
+   "verifier_verdict": "NOT ESTABLISHED",
+   "verifier_exit": 1,
+   "forced_rows_differ": 0,
+   "forced_rows": 2400,
+   "forced_flips": {
+    "ALLOW->DENY": 0,
+    "DENY->ALLOW": 0,
+    "reason-only": 0
+   }
+  },
+  {
+   "engine": "cedarpy-4.12.2",
+   "corpus_agree": 45416,
+   "corpus_requests": 45416,
+   "allow_where_corpus_expects_deny": 0,
+   "deny_where_corpus_expects_allow": 0,
+   "disagreements_without_engine_error": 0,
+   "verifier_replay": "established",
+   "verifier_verdict": "ESTABLISHED",
+   "verifier_exit": 0,
+   "forced_rows_differ": 0,
+   "forced_rows": 2400,
+   "forced_flips": {
+    "ALLOW->DENY": 0,
+    "DENY->ALLOW": 0,
+    "reason-only": 0
+   }
+  }
+ ],
+ "runs": [
+  {
+   "engine": "cedarpy-0.4.1",
+   "full_corpus": {
+    "corpus": "cedar-integration-tests corpus-tests.tar.gz",
+    "pin": "b157547fb8856911b293b7214768922c731878de",
+    "engine": "cedarpy-0.4.1",
+    "tests": 5677,
+    "requests": 45416,
+    "agree_decision_reason_and_error_presence": 24161,
+    "disagree": 21255,
+    "of_which_reason_differs": 20980,
+    "of_which_error_presence_differs": 18640,
+    "of_which_without_engine_error": 7,
+    "allow_where_corpus_expects_deny": 0,
+    "deny_where_corpus_expects_allow": 7800,
+    "by_outcome": {
+     "DENY": 29092,
+     "ALLOW": 16324
+    },
+    "disagreement_error_kinds": [
+     [
+      "failed to parse schema from request",
+      6415
+     ],
+     [
+      "while initializing the Evaluator, encountered the following ",
+      5129
+     ],
+     [
+      "policy parse errors:\npoorly formed: invalid syntax, expected",
+      2560
+     ],
+     [
+      "policy parse errors:\nUnrecognized token `is` found at 20:22\n",
+      2120
+     ],
+     [
+      "policy parse errors:\npoorly formed: expected method name, fo",
+      784
+     ],
+     [
+      "policy parse errors:\npoorly formed: This item is not a data ",
+      496
+     ],
+     [
+      "policy parse errors:\npoorly formed: numeric literal out of r",
+      344
+     ],
+     [
+      "policy parse errors:\nUnrecognized token `is` found at 237:23",
+      128
+     ]
+    ],
+    "disagreements_without_engine_error_sample": [
+     {
+      "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+      "request": 0,
+      "got": [
+       "DENY",
+       "policy0"
+      ],
+      "want": [
+       "DENY",
+       "no-policy-permits",
+       1
+      ],
+      "description": "Request 0"
+     },
+     {
+      "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+      "request": 1,
+      "got": [
+       "DENY",
+       "policy0"
+      ],
+      "want": [
+       "DENY",
+       "no-policy-permits",
+       1
+      ],
+      "description": "Request 1"
+     },
+     {
+      "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+      "request": 2,
+      "got": [
+       "DENY",
+       "policy0"
+      ],
+      "want": [
+       "DENY",
+       "no-policy-permits",
+       1
+      ],
+      "description": "Request 2"
+     },
+     {
+      "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+      "request": 3,
+      "got": [
+       "DENY",
+       "policy0"
+      ],
+      "want": [
+       "DENY",
+       "no-policy-permits",
+       1
+      ],
+      "description": "Request 3"
+     },
+     {
+      "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+      "request": 4,
+      "got": [
+       "DENY",
+       "policy0"
+      ],
+      "want": [
+       "DENY",
+       "no-policy-permits",
+       1
+      ],
+      "description": "Request 4"
+     },
+     {
+      "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+      "request": 6,
+      "got": [
+       "DENY",
+       "policy0"
+      ],
+      "want": [
+       "DENY",
+       "no-policy-permits",
+       1
+      ],
+      "description": "Request 6"
+     },
+     {
+      "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+      "request": 7,
+      "got": [
+       "DENY",
+       "policy0"
+      ],
+      "want": [
+       "DENY",
+       "no-policy-permits",
+       1
+      ],
+      "description": "Request 7"
+     }
+    ],
+    "corpus_files_digested": 22708,
+    "seconds": 60.8,
+    "generated_utc": "2026-10-20T02:36:13Z"
+   },
+   "verifier_on_sample_record": {
+    "exit": 1,
+    "verdict": "NOT ESTABLISHED",
+    "replay_state": "unknown",
+    "replay_detail": "the supplied decider is cedar-conformance@cedarpy-0.4.1, the record names cedar-conformance@cedarpy-4.12.2; replaying with a different procedure proves nothing"
+   },
+   "forced_recomputation_on_sample_record": {
+    "record_names": "cedar-conformance@cedarpy-4.12.2",
+    "installed": "cedar-conformance@cedarpy-0.4.1",
+    "rows": 2400,
+    "rows_differ": 1135,
+    "flips": {
+     "ALLOW->DENY": 447,
+     "DENY->ALLOW": 0,
+     "reason-only": 688
+    },
+    "first_difference": {
+     "seq": 1,
+     "row": [
+      "ALLOW",
+      "policy0"
+     ],
+     "replay": [
+      "DENY",
+      "no-policy-permits"
+     ]
+    },
+    "would_fail_replay": true
+   },
+   "seconds": 66,
+   "generated_utc": "2026-10-20T02:36:17Z"
+  },
+  {
+   "engine": "cedarpy-4.1.0",
+   "full_corpus": {
+    "corpus": "cedar-integration-tests corpus-tests.tar.gz",
+    "pin": "b157547fb8856911b293b7214768922c731878de",
+    "engine": "cedarpy-4.1.0",
+    "tests": 5677,
+    "requests": 45416,
+    "agree_decision_reason_and_error_presence": 25188,
+    "disagree": 20228,
+    "of_which_reason_differs": 20228,
+    "of_which_error_presence_differs": 17862,
+    "of_which_without_engine_error": 0,
+    "allow_where_corpus_expects_deny": 0,
+    "deny_where_corpus_expects_allow": 8382,
+    "by_outcome": {
+     "DENY": 29674,
+     "ALLOW": 15742
+    },
+    "disagreement_error_kinds": [
+     [
+      "failed to parse schema from request",
+      6836
+     ],
+     [
+      "policy parse errors:\n`duration` is not a valid function",
+      2816
+     ],
+     [
+      "failed to parse entities from:\n[{\"uid\": {\"type\": \"r::r::r::u",
+      1376
+     ],
+     [
+      "failed to parse entities from:\n[{\"uid\": {\"type\": \"Action\", \"",
+      1360
+     ],
+     [
+      "failed to parse entities from:\n[{\"uid\": {\"type\": \"D53333333V",
+      992
+     ],
+     [
+      "failed to parse entities from:\n[{\"uid\": {\"type\": \"a\", \"id\": ",
+      952
+     ],
+     [
+      "policy parse errors:\nentity tags are not supported in this b",
+      616
+     ],
+     [
+      "policy parse errors:\n`datetime` is not a valid function",
+      576
+     ]
+    ],
+    "corpus_files_digested": 22708,
+    "seconds": 72.6,
+    "generated_utc": "2026-10-20T02:33:29Z"
+   },
+   "verifier_on_sample_record": {
+    "exit": 1,
+    "verdict": "NOT ESTABLISHED",
+    "replay_state": "unknown",
+    "replay_detail": "the supplied decider is cedar-conformance@cedarpy-4.1.0, the record names cedar-conformance@cedarpy-4.12.2; replaying with a different procedure proves nothing"
+   },
+   "forced_recomputation_on_sample_record": {
+    "record_names": "cedar-conformance@cedarpy-4.12.2",
+    "installed": "cedar-conformance@cedarpy-4.1.0",
+    "rows": 2400,
+    "rows_differ": 1074,
+    "flips": {
+     "ALLOW->DENY": 463,
+     "DENY->ALLOW": 0,
+     "reason-only": 611
+    },
+    "first_difference": {
+     "seq": 1,
+     "row": [
+      "ALLOW",
+      "policy0"
+     ],
+     "replay": [
+      "DENY",
+      "request-invalid"
+     ]
+    },
+    "would_fail_replay": true
+   },
+   "seconds": 86,
+   "generated_utc": "2026-10-20T02:33:35Z"
+  },
+  {
+   "engine": "cedarpy-4.8.7",
+   "full_corpus": {
+    "corpus": "cedar-integration-tests corpus-tests.tar.gz",
+    "pin": "b157547fb8856911b293b7214768922c731878de",
+    "engine": "cedarpy-4.8.7",
+    "tests": 5677,
+    "requests": 45416,
+    "agree_decision_reason_and_error_presence": 45416,
+    "disagree": 0,
+    "of_which_reason_differs": 0,
+    "of_which_error_presence_differs": 0,
+    "of_which_without_engine_error": 0,
+    "allow_where_corpus_expects_deny": 0,
+    "deny_where_corpus_expects_allow": 0,
+    "by_outcome": {
+     "ALLOW": 24124,
+     "DENY": 21292
+    },
+    "disagreement_error_kinds": [],
+    "disagreements_without_engine_error_sample": [],
+    "corpus_files_digested": 22708,
+    "seconds": 306.6,
+    "generated_utc": "2026-10-20T02:41:44Z"
+   },
+   "verifier_on_sample_record": {
+    "exit": 1,
+    "verdict": "NOT ESTABLISHED",
+    "replay_state": "unknown",
+    "replay_detail": "the supplied decider is cedar-conformance@cedarpy-4.8.7, the record names cedar-conformance@cedarpy-4.12.2; replaying with a different procedure proves nothing"
+   },
+   "forced_recomputation_on_sample_record": {
+    "record_names": "cedar-conformance@cedarpy-4.12.2",
+    "installed": "cedar-conformance@cedarpy-4.8.7",
+    "rows": 2400,
+    "rows_differ": 0,
+    "flips": {
+     "ALLOW->DENY": 0,
+     "DENY->ALLOW": 0,
+     "reason-only": 0
+    },
+    "first_difference": null,
+    "would_fail_replay": false
+   },
+   "seconds": 327,
+   "generated_utc": "2026-10-20T02:42:03Z"
+  },
+  {
+   "engine": "cedarpy-4.12.2",
+   "full_corpus": {
+    "corpus": "cedar-integration-tests corpus-tests.tar.gz",
+    "pin": "b157547fb8856911b293b7214768922c731878de",
+    "engine": "cedarpy-4.12.2",
+    "tests": 5677,
+    "requests": 45416,
+    "agree_decision_reason_and_error_presence": 45416,
+    "disagree": 0,
+    "of_which_reason_differs": 0,
+    "of_which_error_presence_differs": 0,
+    "of_which_without_engine_error": 0,
+    "allow_where_corpus_expects_deny": 0,
+    "deny_where_corpus_expects_allow": 0,
+    "by_outcome": {
+     "ALLOW": 24124,
+     "DENY": 21292
+    },
+    "disagreement_error_kinds": [],
+    "disagreements_without_engine_error_sample": [],
+    "corpus_files_digested": 22708,
+    "seconds": 257.2,
+    "generated_utc": "2026-10-20T02:46:22Z"
+   },
+   "verifier_on_sample_record": {
+    "exit": 0,
+    "verdict": "ESTABLISHED",
+    "replay_state": "established",
+    "replay_detail": "re-deciding all 2400 retained inputs with cedar-conformance@cedarpy-4.12.2 reproduced every outcome and reason"
+   },
+   "forced_recomputation_on_sample_record": {
+    "record_names": "cedar-conformance@cedarpy-4.12.2",
+    "installed": "cedar-conformance@cedarpy-4.12.2",
+    "rows": 2400,
+    "rows_differ": 0,
+    "flips": {
+     "ALLOW->DENY": 0,
+     "DENY->ALLOW": 0,
+     "reason-only": 0
+    },
+    "first_difference": null,
+    "would_fail_replay": false
+   },
+   "seconds": 287,
+   "generated_utc": "2026-10-20T02:46:50Z"
+  }
+ ],
+ "generated_utc": "2026-10-20T03:05:56Z"
+}

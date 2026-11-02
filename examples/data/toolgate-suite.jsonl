@@ -1,0 +1,12 @@
+{"ts": "2026-10-18T00:00:00Z", "input": {"tool": "get_weather", "args": {"city": "Auckland"}}, "label": "ALLOW"}
+{"ts": "2026-10-18T00:00:01Z", "input": {"tool": "lookup_order", "args": {"order_id": 1042}}, "label": "ALLOW"}
+{"ts": "2026-10-18T00:00:02Z", "input": {"tool": "send_receipt", "args": {"order_id": 1042, "email": "a@example.invalid", "resend": false}}, "label": "ALLOW"}
+{"ts": "2026-10-18T00:00:03Z", "input": {"tool": "delete_all_orders", "args": {}}, "label": "DENY"}
+{"ts": "2026-10-18T00:00:04Z", "input": {"tool": "lookup_order", "args": {"order_id": "1042; drop table orders"}}, "label": "DENY"}
+{"ts": "2026-10-18T00:00:05Z", "input": {"tool": "get_weather", "args": {"city": "Auckland", "debug_dump_env": true}}, "label": "DENY"}
+{"ts": "2026-10-18T00:00:06Z", "input": {"tool": "send_receipt", "args": {"order_id": 1042, "email": "a@example.invalid"}}, "label": "DENY"}
+{"ts": "2026-10-18T00:00:07Z", "input": {"tool": "lookup_order", "args": {"order_id": true}}, "label": "DENY"}
+{"ts": "2026-10-18T00:00:08Z", "input": {"tool": "get_weather", "args": {"city": "Wellington"}}, "label": "ALLOW"}
+{"ts": "2026-10-18T00:00:09Z", "input": {"tool": "get_weather", "args": "Auckland"}, "label": "DENY"}
+{"ts": "2026-10-18T00:00:10Z", "input": {"tool": "get_weather", "args": {"city": "Dan's redundant abundant city"}}, "label": "ALLOW"}
+{"ts": "2026-10-18T00:00:11Z", "input": {"tool": "lookup_order", "args": {"order_id": 7}}, "label": "ALLOW"}

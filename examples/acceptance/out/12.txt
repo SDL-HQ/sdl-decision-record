@@ -1,0 +1,18 @@
+experiments/rederivability/out/f5-input-fabricated
+
+  OK      document       format_version 1 shape, and payload_hash recomputes from the canonical payload
+  OK      signing_trust  key 'rederivability-test-producer' is active in the registry
+  OK      signature      the signature verifies over the payload
+  OK      chain          40 rows re-derive from GENESIS to the signed terminal hash
+  OK      decisions      40 rows written, by outcome {'ALLOW': 17, 'DENY': 23}, one decider, 1 policy; a count of what the producer wrote, not of what happened
+  OK      profile        the rows support the declared profile 'production'
+  n/a     correctness    the production profile carries no correctness property: the rows have no labels and the record claims none
+  OK      retained       3 retained file(s) present with their digests, inputs match the rows, policy matches the rows
+  n/a     replay         not requested; pass --replay <decider module> to re-decide the retained inputs
+  OK      invocation     every one of the 40 rows carries a decision the decider signed under ['rederivability-test-decider'] at decision time, bound to this record and sequence; the producer could not have written these rows without the decider
+  n/a     stream         the record is not part of a stream
+  n/a     completeness   not claimed and not establishable: the 40 rows are what the producer wrote, and nothing in a self-signed record bounds what it did not write. A receipt (--receipt) for a decision the record lacks refutes it
+  n/a     receipts       no receipts supplied
+  n/a     witness        no witness statement supplied; a record witnesses nothing about itself
+
+VERDICT: ESTABLISHED

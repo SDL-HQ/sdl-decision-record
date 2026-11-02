@@ -1,0 +1,10 @@
+{
+  "registry_version": 1,
+  "keys": [
+    {
+      "key_id": "example-witness-2026-10",
+      "status": "active",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEABOBtbdw53gTjNtV7/dCt9Umfsn/My6BrLtjqOZITQTI=\n-----END PUBLIC KEY-----\n"
+    }
+  ]
+}

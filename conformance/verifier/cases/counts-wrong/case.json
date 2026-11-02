@@ -1,0 +1,9 @@
+{
+ "name": "counts-wrong",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "counts.decisions off by one in the record; signature now stale",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

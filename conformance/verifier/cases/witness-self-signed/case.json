@@ -1,0 +1,11 @@
+{
+ "name": "witness-self-signed",
+ "kind": "mutation",
+ "of": "stream-hour1",
+ "what": "a witness statement signed with the producer's own key, under a witness registry that enrols that key as 'independent-auditor-2026-10'",
+ "options": {
+  "registry": "keys/registry.json",
+  "witness": "inputs/stream-hour1.self-witness.json",
+  "witness_registry": "keys/witnesses-with-producer-key.json"
+ }
+}

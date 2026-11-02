@@ -1,0 +1,58 @@
+{
+  "benchmark": {
+    "agree": 31,
+    "by_label": {
+      "ALLOW": {
+        "ALLOW": 8,
+        "DENY": 7
+      },
+      "DENY": {
+        "ALLOW": 2,
+        "DENY": 23
+      }
+    },
+    "disagree": 9,
+    "labelled": 40
+  },
+  "counts": {
+    "by_outcome": {
+      "ALLOW": 10,
+      "DENY": 30
+    },
+    "decisions": 40
+  },
+  "decider": {
+    "established_versions": [
+      {
+        "evidence": "sha256:d9c811235bbd80f3951e26f4f7a8f60dd73247affa034bbd6cbc210f1e26683c",
+        "version": "cedarpy-4.8.7"
+      }
+    ],
+    "id": "cedar-authorizer",
+    "outcomes": [
+      "ALLOW",
+      "DENY"
+    ],
+    "version": "cedarpy-4.12.2"
+  },
+  "format": "sdl-decision-record",
+  "format_version": 1,
+  "issued_at": "2026-10-20T02:00:00Z",
+  "ledger": {
+    "path": "decisions.jsonl",
+    "row_count": 40,
+    "terminal_hash": "sha256:b16caa96db5eae1fe985955d0b533b06c3577da1c9fcf0d3a541757440963834"
+  },
+  "payload_hash": "sha256:2bb162b26e0fab04dc45fda30d103540c08e020ddae9fff76e6bf61e57549e13",
+  "policy_digests": [
+    "sha256:2879ac20d36001eae6ca335cffd54050ef5d26ee524ef5f1e6d2ea279a1125ab"
+  ],
+  "profile": "benchmark",
+  "record_id": "cedar-toolcalls-store-2026-10-20",
+  "retained": {
+    "inputs.jsonl": "sha256:3a510448d4d8cb349f4de279adf60aa1baaa7a188162a8eaa0db4e0ac96011e1",
+    "policy.json": "sha256:2879ac20d36001eae6ca335cffd54050ef5d26ee524ef5f1e6d2ea279a1125ab"
+  },
+  "signature": "M/O2t5w00NBU5lHrHbo5AQjj9dj+y/+ssbBsUjKDXWsyzMmg9t4zpTW7J+G/gL/wlTKhUGSGKEqlkuSXknVBCA==",
+  "signing_key_id": "example-2026-10"
+}

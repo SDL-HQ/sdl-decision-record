@@ -1,0 +1,155 @@
+{
+ "agree_decision_reason_and_error_presence": 24161,
+ "allow_where_corpus_expects_deny": 0,
+ "by_outcome": {
+  "ALLOW": 16324,
+  "DENY": 29092
+ },
+ "corpus": "cedar-integration-tests corpus-tests.tar.gz",
+ "corpus_files_digested": 22708,
+ "deny_where_corpus_expects_allow": 7800,
+ "disagree": 21255,
+ "disagreement_error_kinds": [
+  [
+   "failed to parse schema from request",
+   6415
+  ],
+  [
+   "while initializing the Evaluator, encountered the following ",
+   5129
+  ],
+  [
+   "policy parse errors:\npoorly formed: invalid syntax, expected",
+   2560
+  ],
+  [
+   "policy parse errors:\nUnrecognized token `is` found at 20:22\n",
+   2120
+  ],
+  [
+   "policy parse errors:\npoorly formed: expected method name, fo",
+   784
+  ],
+  [
+   "policy parse errors:\npoorly formed: This item is not a data ",
+   496
+  ],
+  [
+   "policy parse errors:\npoorly formed: numeric literal out of r",
+   344
+  ],
+  [
+   "policy parse errors:\nUnrecognized token `is` found at 237:23",
+   128
+  ]
+ ],
+ "disagreements_without_engine_error_sample": [
+  {
+   "description": "Request 0",
+   "got": [
+    "DENY",
+    "policy0"
+   ],
+   "request": 0,
+   "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+   "want": [
+    "DENY",
+    "no-policy-permits",
+    1
+   ]
+  },
+  {
+   "description": "Request 1",
+   "got": [
+    "DENY",
+    "policy0"
+   ],
+   "request": 1,
+   "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+   "want": [
+    "DENY",
+    "no-policy-permits",
+    1
+   ]
+  },
+  {
+   "description": "Request 2",
+   "got": [
+    "DENY",
+    "policy0"
+   ],
+   "request": 2,
+   "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+   "want": [
+    "DENY",
+    "no-policy-permits",
+    1
+   ]
+  },
+  {
+   "description": "Request 3",
+   "got": [
+    "DENY",
+    "policy0"
+   ],
+   "request": 3,
+   "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+   "want": [
+    "DENY",
+    "no-policy-permits",
+    1
+   ]
+  },
+  {
+   "description": "Request 4",
+   "got": [
+    "DENY",
+    "policy0"
+   ],
+   "request": 4,
+   "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+   "want": [
+    "DENY",
+    "no-policy-permits",
+    1
+   ]
+  },
+  {
+   "description": "Request 6",
+   "got": [
+    "DENY",
+    "policy0"
+   ],
+   "request": 6,
+   "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+   "want": [
+    "DENY",
+    "no-policy-permits",
+    1
+   ]
+  },
+  {
+   "description": "Request 7",
+   "got": [
+    "DENY",
+    "policy0"
+   ],
+   "request": 7,
+   "test": "corpus-tests/63d4b38073ce515f8bfdbca7f3ab27e59e3147f7.json",
+   "want": [
+    "DENY",
+    "no-policy-permits",
+    1
+   ]
+  }
+ ],
+ "engine": "cedarpy-0.4.1",
+ "generated_utc": "2026-10-20T02:36:13Z",
+ "of_which_error_presence_differs": 18640,
+ "of_which_reason_differs": 20980,
+ "of_which_without_engine_error": 7,
+ "pin": "b157547fb8856911b293b7214768922c731878de",
+ "requests": 45416,
+ "seconds": 60.8,
+ "tests": 5677
+}

@@ -1,0 +1,9 @@
+{
+ "name": "stream-hour2-with-prior",
+ "kind": "committed record",
+ "source": "examples/out/stream-hour2",
+ "options": {
+  "registry": "keys/registry.json",
+  "prior": "inputs/stream-hour1/record.json"
+ }
+}

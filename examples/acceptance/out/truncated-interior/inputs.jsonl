@@ -1,0 +1,18 @@
+{"input": {"args": {"email": "x@example.invalid", "order_id": 396, "resend": true}, "tool": "send_receipt"}, "seq": 1}
+{"input": {"args": {"email": "x@example.invalid", "order_id": 4157, "resend": true}, "tool": "send_receipt"}, "seq": 2}
+{"input": {"args": {"city": "Dunedin"}, "tool": "get_weather"}, "seq": 3}
+{"input": {"args": {}, "tool": "shell"}, "seq": 4}
+{"input": {"args": {"order_id": 965}, "tool": "lookup_order"}, "seq": 5}
+{"input": {"args": {"city": "Auckland", "units": "metric"}, "tool": "get_weather"}, "seq": 6}
+{"input": {"args": {}, "tool": "shell"}, "seq": 7}
+{"input": {"args": {"order_id": 2000}, "tool": "lookup_order"}, "seq": 8}
+{"input": {"args": {"email": "x@example.invalid", "order_id": 2359, "resend": true}, "tool": "send_receipt"}, "seq": 9}
+{"input": {"args": {}, "tool": "shell"}, "seq": 10}
+{"input": {"args": {"city": "Auckland", "units": "metric"}, "tool": "get_weather"}, "seq": 11}
+{"input": {"args": {"order_id": "2212"}, "tool": "lookup_order"}, "seq": 12}
+{"input": {"args": {}, "tool": "delete_all_orders"}, "seq": 13}
+{"input": {"args": {"city": "Auckland", "units": "metric"}, "tool": "get_weather"}, "seq": 14}
+{"input": {"args": {"email": "x@example.invalid", "order_id": 4045, "resend": true}, "tool": "send_receipt"}, "seq": 15}
+{"input": {"args": {"order_id": 2029}, "tool": "lookup_order"}, "seq": 16}
+{"input": {"args": {"order_id": 3291}, "tool": "lookup_order"}, "seq": 17}
+{"input": {"args": {"order_id": "1237"}, "tool": "lookup_order"}, "seq": 18}

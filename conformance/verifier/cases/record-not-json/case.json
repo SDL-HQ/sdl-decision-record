@@ -1,0 +1,9 @@
+{
+ "name": "record-not-json",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "record.json is not JSON: the directory cannot be read",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

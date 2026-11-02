@@ -1,0 +1,23 @@
+{
+ "agree_decision_reason_and_error_presence": 45416,
+ "allow_where_corpus_expects_deny": 0,
+ "by_outcome": {
+  "ALLOW": 24124,
+  "DENY": 21292
+ },
+ "corpus": "cedar-integration-tests corpus-tests.tar.gz",
+ "corpus_files_digested": 22708,
+ "deny_where_corpus_expects_allow": 0,
+ "disagree": 0,
+ "disagreement_error_kinds": [],
+ "disagreements_without_engine_error_sample": [],
+ "engine": "cedarpy-4.12.2",
+ "generated_utc": "2026-10-20T02:46:22Z",
+ "of_which_error_presence_differs": 0,
+ "of_which_reason_differs": 0,
+ "of_which_without_engine_error": 0,
+ "pin": "b157547fb8856911b293b7214768922c731878de",
+ "requests": 45416,
+ "seconds": 257.2,
+ "tests": 5677
+}

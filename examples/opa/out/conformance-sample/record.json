@@ -1,0 +1,55 @@
+{
+  "benchmark": {
+    "agree": 400,
+    "by_label": {
+      "ERROR": {
+        "ERROR": 44
+      },
+      "RESULT": {
+        "RESULT": 333
+      },
+      "UNDEFINED": {
+        "UNDEFINED": 23
+      }
+    },
+    "disagree": 0,
+    "labelled": 400
+  },
+  "counts": {
+    "by_outcome": {
+      "ERROR": 44,
+      "RESULT": 333,
+      "UNDEFINED": 23
+    },
+    "decisions": 400
+  },
+  "decider": {
+    "id": "opa-conformance",
+    "outcomes": [
+      "RESULT",
+      "ERROR",
+      "UNDEFINED"
+    ],
+    "version": "opa-1.21.3"
+  },
+  "format": "sdl-decision-record",
+  "format_version": 1,
+  "issued_at": "2026-10-21T01:00:00Z",
+  "ledger": {
+    "path": "decisions.jsonl",
+    "row_count": 400,
+    "terminal_hash": "sha256:6aa32db38637888b937c964694283bb5482ad18f92e30a32fc8dc09523841f1d"
+  },
+  "payload_hash": "sha256:39792e1f032a7752d65327131554baf516c9b00ae9922b4d437f21503fe43b73",
+  "policy_digests": [
+    "sha256:82d58efea08cc3453b097ec141b99e8c986ec187ba8b530ee750fff8bfc1ee0c"
+  ],
+  "profile": "benchmark",
+  "record_id": "opa-conformance-sample-2026-10-21",
+  "retained": {
+    "inputs.jsonl": "sha256:4e3520f32c48005dfd0a87dfc17e5e5f4b09d2454b42dcd46dcfbd54374e1d8f",
+    "policy.json": "sha256:82d58efea08cc3453b097ec141b99e8c986ec187ba8b530ee750fff8bfc1ee0c"
+  },
+  "signature": "cSNewMg93SFl8ZKzp4JRakBoiY27I17895IsVf20zbv4a6+u5pTXFx7axjI2B26mwK4IWaU02Xn7mu/99YSLAQ==",
+  "signing_key_id": "example-2026-10"
+}

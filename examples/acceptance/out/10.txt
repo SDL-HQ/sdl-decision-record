@@ -1,0 +1,19 @@
+examples/acceptance/out/names-9.9.9-excluded
+
+  OK      document       format_version 1 shape, and payload_hash recomputes from the canonical payload
+  OK      signing_trust  key 'example-2026-10' is active in the registry
+  OK      signature      the signature verifies over the payload
+  OK      chain          20 rows re-derive from GENESIS to the signed terminal hash
+  OK      decisions      20 rows written, by outcome {'ALLOW': 10, 'DENY': 10}, one decider, 1 policy; a count of what the producer wrote, not of what happened
+  OK      profile        the rows support the declared profile 'production'
+  n/a     correctness    the production profile carries no correctness property: the rows have no labels and the record claims none
+  OK      retained       2 retained file(s) present with their digests, inputs match the rows, policy matches the rows
+  UNKNOWN replay         toolgate@9.9.9 is named as established by sha256:3e190c66a719a6e7af37abc309562e16f147886a428dab696426e2c90035df35, and that result reports 900 of 1000 with 3 excluded for engine '9.9.9'; the name is not supported
+  n/a     invocation     not claimed: no decider attestations are retained, so the rows are the producer's word on what the decider said; replay checks the words, not that the decider was called
+  n/a     stream         the record is not part of a stream
+  n/a     completeness   not claimed and not establishable: the 20 rows are what the producer wrote, and nothing in a self-signed record bounds what it did not write. A receipt (--receipt) for a decision the record lacks refutes it
+  n/a     receipts       no receipts supplied
+  n/a     witness        no witness statement supplied; a record witnesses nothing about itself
+
+VERDICT: NOT ESTABLISHED
+Nothing failed. At least one property could not be established, and an unestablished property is not one that holds.

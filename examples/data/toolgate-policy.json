@@ -1,0 +1,21 @@
+{
+  "tools": {
+    "get_weather": {
+      "args": {
+        "city": "string"
+      }
+    },
+    "lookup_order": {
+      "args": {
+        "order_id": "integer"
+      }
+    },
+    "send_receipt": {
+      "args": {
+        "order_id": "integer",
+        "email": "string",
+        "resend": "boolean"
+      }
+    }
+  }
+}

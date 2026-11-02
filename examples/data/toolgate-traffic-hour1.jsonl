@@ -1,0 +1,20 @@
+{"ts": "2026-10-18T01:00:00Z", "input": {"tool": "send_receipt", "args": {"order_id": 396, "email": "x@example.invalid", "resend": true}}}
+{"ts": "2026-10-18T01:00:01Z", "input": {"tool": "send_receipt", "args": {"order_id": 4157, "email": "x@example.invalid", "resend": true}}}
+{"ts": "2026-10-18T01:00:02Z", "input": {"tool": "delete_all_orders", "args": {}}}
+{"ts": "2026-10-18T01:00:03Z", "input": {"tool": "get_weather", "args": {"city": "Dunedin"}}}
+{"ts": "2026-10-18T01:00:04Z", "input": {"tool": "shell", "args": {}}}
+{"ts": "2026-10-18T01:00:05Z", "input": {"tool": "lookup_order", "args": {"order_id": 965}}}
+{"ts": "2026-10-18T01:00:06Z", "input": {"tool": "get_weather", "args": {"city": "Dunedin"}}}
+{"ts": "2026-10-18T01:00:07Z", "input": {"tool": "get_weather", "args": {"city": "Auckland", "units": "metric"}}}
+{"ts": "2026-10-18T01:00:08Z", "input": {"tool": "shell", "args": {}}}
+{"ts": "2026-10-18T01:00:09Z", "input": {"tool": "lookup_order", "args": {"order_id": 2000}}}
+{"ts": "2026-10-18T01:00:10Z", "input": {"tool": "send_receipt", "args": {"order_id": 2359, "email": "x@example.invalid", "resend": true}}}
+{"ts": "2026-10-18T01:00:11Z", "input": {"tool": "shell", "args": {}}}
+{"ts": "2026-10-18T01:00:12Z", "input": {"tool": "get_weather", "args": {"city": "Auckland", "units": "metric"}}}
+{"ts": "2026-10-18T01:00:13Z", "input": {"tool": "lookup_order", "args": {"order_id": "2212"}}}
+{"ts": "2026-10-18T01:00:14Z", "input": {"tool": "delete_all_orders", "args": {}}}
+{"ts": "2026-10-18T01:00:15Z", "input": {"tool": "get_weather", "args": {"city": "Auckland", "units": "metric"}}}
+{"ts": "2026-10-18T01:00:16Z", "input": {"tool": "send_receipt", "args": {"order_id": 4045, "email": "x@example.invalid", "resend": true}}}
+{"ts": "2026-10-18T01:00:17Z", "input": {"tool": "lookup_order", "args": {"order_id": 2029}}}
+{"ts": "2026-10-18T01:00:18Z", "input": {"tool": "lookup_order", "args": {"order_id": 3291}}}
+{"ts": "2026-10-18T01:00:19Z", "input": {"tool": "lookup_order", "args": {"order_id": "1237"}}}

@@ -1,0 +1,3895 @@
+{
+ "cases": [
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/acceptance-attested-no-decider-registry/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "eed90442fe18e01efb6be69efa7509a8cfe22d2a63eae287aba15e181d06dc99"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/acceptance-attested-no-decider-registry/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c0aa6a1886bd5ea6443fe5132e86bd92a7230a193f54ac87633444760aa45669"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/acceptance-attested-no-decider-registry/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "244965d5a9b403a98987069a49928086f9fea6bc4f1bd340457adf39c351ea9c"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/acceptance-attested-no-decider-registry/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5317619db30fddad8e979dc9e38e91631e93ce745b7a6ae0885151664dd47173"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/acceptance-attested/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a3430688ac2ef807f1e9a610010b06e0c5a1836f6f8e4a6ea386fd67ff0ac360"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/acceptance-attested/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "09dc507fb4faecc0beb7a6ea5c5cbf844d8b86fedff21828e534529e9d491831"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/acceptance-attested/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "555c57df3878c6030ce49ca0631726ded9c60fce7785a671409360bab6a2d320"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/acceptance-attested/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "cf79e8bfbe838ae71eff61ae5932f9f7b4fff00c3679f3769f67ea0dac7ccf8b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/attestation-forged/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b0653778d02720519b3daa7ee66da305e2776e55b7f366719f23339ac3135e5f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/attestation-forged/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b69f53047c30e77709fe35dd3b62f89a4694bb2db18a84cb46b4b189f2f89cdd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/attestation-forged/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8e79b5497f061900ac732f59bbb73dac88d1f239b626165864f4c6f76300575a"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/attestation-forged/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b4201be9d88dc6eb034d1dbd797f9c529d9cf2901c3f007f008082098d863b8d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/attestation-missing/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "96193de97eccce0a83e86bcf8702a0befb291f904b3de60df9e12b43e0cfdf84"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/attestation-missing/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "86170214e33db86e2fc9a6c4178608742f2310172e62cf28e6fd4ee89161a6b8"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/attestation-missing/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "70d5bc0b0ff663bd8fbb0066763e80778b0de63268721c9ead47dcf457023c79"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/attestation-missing/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "f73ea2ca6cd7d633e099fa7ba5371682ef0e9c92197c86dce748a143b1b3936c"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/cedar-conformance-handwritten/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4ae6a2a3da35c1fe8479ef5c1f1cf98b56860ff65a51b48eed182507e2fb5560"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/cedar-conformance-handwritten/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8a5c355d4ff88a9d176febf0e0abc82a2d4031c4e1f9a6934f684a5eeb051845"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/cedar-conformance-handwritten/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4ae6a2a3da35c1fe8479ef5c1f1cf98b56860ff65a51b48eed182507e2fb5560"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/cedar-conformance-handwritten/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8a5c355d4ff88a9d176febf0e0abc82a2d4031c4e1f9a6934f684a5eeb051845"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/cedar-toolcalls-canonical/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "e64b4f4d41d61cdbcaa312112fd4ef61a89a9d86f720df71fa88d37807e6c85a"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/cedar-toolcalls-canonical/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1afb54574c08307f788eb5eb8bacf4b437a29735fd6592d270d7b229990ce9f2"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/cedar-toolcalls-canonical/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "e64b4f4d41d61cdbcaa312112fd4ef61a89a9d86f720df71fa88d37807e6c85a"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/cedar-toolcalls-canonical/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1afb54574c08307f788eb5eb8bacf4b437a29735fd6592d270d7b229990ce9f2"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/classrouter-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "202361f2de021aa409b7e5936ed41c082724351a3217957d195357fc5616fa38"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/classrouter-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5ba7fdd6544f124b071fe052d6a9d955a38ea9f66586b13cc46e17dda3a2922d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/classrouter-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "202361f2de021aa409b7e5936ed41c082724351a3217957d195357fc5616fa38"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/classrouter-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5ba7fdd6544f124b071fe052d6a9d955a38ea9f66586b13cc46e17dda3a2922d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/counts-wrong-resigned/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a9bb170fd42ff674e779f6f0dbe9437f0696f8861124bff5944c0e1f634c1fe1"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/counts-wrong-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "3fc7e04d8e27c6639dec58eedb9fb075841442e3ce8f8a3680ef155099b9b9ea"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/counts-wrong-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a9bb170fd42ff674e779f6f0dbe9437f0696f8861124bff5944c0e1f634c1fe1"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/counts-wrong-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "3fc7e04d8e27c6639dec58eedb9fb075841442e3ce8f8a3680ef155099b9b9ea"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/counts-wrong/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "71c7e8d523ccd5fbee19194c6b98207e1f9e639f78a1d796028ffb6a249f30dd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/counts-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "7addda25aed6dcb85cbeac6cf5c94ba813c254d5a945a1c145110258dbd84782"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/counts-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "71c7e8d523ccd5fbee19194c6b98207e1f9e639f78a1d796028ffb6a249f30dd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/counts-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "7addda25aed6dcb85cbeac6cf5c94ba813c254d5a945a1c145110258dbd84782"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/extra-file-unnamed/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "82cf7610a2f55fa8e3114f2ab666d561937db05461763dfe799b4fd9bfc38e2d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/extra-file-unnamed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6caf54c21d8de6ed7f7e33fc1a893503c3d382abc4d015ec278d53b9e8a55de2"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/extra-file-unnamed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "82cf7610a2f55fa8e3114f2ab666d561937db05461763dfe799b4fd9bfc38e2d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/extra-file-unnamed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6caf54c21d8de6ed7f7e33fc1a893503c3d382abc4d015ec278d53b9e8a55de2"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/format-version-unknown/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "27c4e0f785bdf4e4d29c33ac073e533fd30842d190e72e4f79d1f4f4bcc1f71f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/format-version-unknown/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8f3494f4eead228a4e9cc609df19d7e069834c2e9f80c032e4f9ad14ca641286"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/format-version-unknown/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "27c4e0f785bdf4e4d29c33ac073e533fd30842d190e72e4f79d1f4f4bcc1f71f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/format-version-unknown/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8f3494f4eead228a4e9cc609df19d7e069834c2e9f80c032e4f9ad14ca641286"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ledger-missing/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2b0599cb8948bf1cbf90aabfbac473e3e8ca6d7033d1c1fecb7014d4276cc810"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ledger-missing/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c7ea5ae3715d9ef028ce6708612043ab59869b51c9fe97f3890321411bf63c91"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ledger-missing/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2b0599cb8948bf1cbf90aabfbac473e3e8ca6d7033d1c1fecb7014d4276cc810"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ledger-missing/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c7ea5ae3715d9ef028ce6708612043ab59869b51c9fe97f3890321411bf63c91"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/opa-conformance-sample/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "214ca8b60a9f967c80dfda5e302ef54b2c597d3dc78df01b0dd2e17ed1866541"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/opa-conformance-sample/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "743c52a77516f81f4cf743341da5c74e35814f15b8b1cdebbd72426289ecf137"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/opa-conformance-sample/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "214ca8b60a9f967c80dfda5e302ef54b2c597d3dc78df01b0dd2e17ed1866541"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/opa-conformance-sample/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "743c52a77516f81f4cf743341da5c74e35814f15b8b1cdebbd72426289ecf137"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/payload-hash-wrong/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "475772c63397c7736e7db6dddab3ab7eee82de727f559abe05f411ac394f5735"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/payload-hash-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c0d1597bed3d1f5d503f18abd81160b484d2e292a9d8f5e9a89d1ebe548bd8cd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/payload-hash-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "475772c63397c7736e7db6dddab3ab7eee82de727f559abe05f411ac394f5735"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/payload-hash-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c0d1597bed3d1f5d503f18abd81160b484d2e292a9d8f5e9a89d1ebe548bd8cd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/profile-claims-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "e11f0e7fd7176b0da3e0b95870dc709a947175e65a5de3d928ee0b83fe261b09"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/profile-claims-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "169779964af4ee556fc2f346bf7ce2362dcc2af65cb8d74c9998cfb0442582de"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/profile-claims-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "e11f0e7fd7176b0da3e0b95870dc709a947175e65a5de3d928ee0b83fe261b09"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/profile-claims-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "169779964af4ee556fc2f346bf7ce2362dcc2af65cb8d74c9998cfb0442582de"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/profile-lies-production/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "addf9e9560a1a02a5ccca683fd82b129b24bff6b4a39166ee80c4b5aba3d025d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/profile-lies-production/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "85f7d0626e3a835a08d16ed807c2312cf40999a58bcedef46e518313c4a20dd2"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/profile-lies-production/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "addf9e9560a1a02a5ccca683fd82b129b24bff6b4a39166ee80c4b5aba3d025d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/profile-lies-production/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "85f7d0626e3a835a08d16ed807c2312cf40999a58bcedef46e518313c4a20dd2"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ratelimit-production-keyed/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "e0b9910e4a350a0506b2364637017dda4ebfce5b4ee749d5e81a8b444013db1e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ratelimit-production-keyed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "61499c6e28c44e96858df08c4feb5b253c505818228b4704300f8e7b3533c62b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ratelimit-production-keyed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "e0b9910e4a350a0506b2364637017dda4ebfce5b4ee749d5e81a8b444013db1e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ratelimit-production-keyed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "61499c6e28c44e96858df08c4feb5b253c505818228b4704300f8e7b3533c62b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ratelimit-production/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "614b384398d2dcca0fb28360a44ed3f990c88b2649004f043ed6bd921d65723f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ratelimit-production/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "cf032f64581b53a765c81e742f6ea49123835ace2e234dd29b76ef23d4eb9203"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ratelimit-production/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "614b384398d2dcca0fb28360a44ed3f990c88b2649004f043ed6bd921d65723f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/ratelimit-production/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "cf032f64581b53a765c81e742f6ea49123835ace2e234dd29b76ef23d4eb9203"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/receipt-foreign/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5384b89c487fed452fce43a03400b04c88e1951b6c8038cf1550f4969a811aed"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/receipt-foreign/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b2708f1581914a1490f3615c70d467161bb40697b8dc76c78ff1821d05b9fd18"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/receipt-foreign/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5384b89c487fed452fce43a03400b04c88e1951b6c8038cf1550f4969a811aed"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/receipt-foreign/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b2708f1581914a1490f3615c70d467161bb40697b8dc76c78ff1821d05b9fd18"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/receipt-row-deleted/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "14c21e609479e363e67906dc362bfd439658e68e8fdcdfdfb731bcd469d069bd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/receipt-row-deleted/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "be71ed621322bb1d0ce12d8ecd0a811b9f28ce7228122e19534fc60cfdc3b588"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/receipt-row-deleted/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "14c21e609479e363e67906dc362bfd439658e68e8fdcdfdfb731bcd469d069bd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/receipt-row-deleted/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "be71ed621322bb1d0ce12d8ecd0a811b9f28ce7228122e19534fc60cfdc3b588"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/record-not-json/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 3,
+   "stderr_sha256": "b5b870099ca457fadcfce568f1ce2b3cbab798772116c51ae248b1fa9f53850d",
+   "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/record-not-json/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 3,
+   "stderr_sha256": "b5b870099ca457fadcfce568f1ce2b3cbab798772116c51ae248b1fa9f53850d",
+   "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/record-not-json/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 3,
+   "stderr_sha256": "b5b870099ca457fadcfce568f1ce2b3cbab798772116c51ae248b1fa9f53850d",
+   "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/record-not-json/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 3,
+   "stderr_sha256": "b5b870099ca457fadcfce568f1ce2b3cbab798772116c51ae248b1fa9f53850d",
+   "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/retained-file-differs/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9ff7ccf0712dffc2c29067ff9894d06856e61bd7c7c2a2a070c4721563780d53"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/retained-file-differs/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ca161930cbb51df7a335353cdd356167fdff13765ebc3a01efb44185f621d7ab"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/retained-file-differs/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9ff7ccf0712dffc2c29067ff9894d06856e61bd7c7c2a2a070c4721563780d53"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/retained-file-differs/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ca161930cbb51df7a335353cdd356167fdff13765ebc3a01efb44185f621d7ab"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/retained-file-missing/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4ace44b03783488e116f75a721783efc8a7805a96cf9e5d08d476c4422141299"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/retained-file-missing/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8135d38c41292d3ab6f3dae85afea3642e2999db330f195b2e3dcc6143b62177"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/retained-file-missing/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4ace44b03783488e116f75a721783efc8a7805a96cf9e5d08d476c4422141299"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/retained-file-missing/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8135d38c41292d3ab6f3dae85afea3642e2999db330f195b2e3dcc6143b62177"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-deleted-resigned-keyed/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "14ba16ae55d2cbefdc07f97e156fa317033890f6f90c9851a32a7ba0b5e6fa07"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-deleted-resigned-keyed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ec5cb505e9de79399322ffc2e95ae7ab4115b42bf631cd5c58bf21b2c6d50390"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-deleted-resigned-keyed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "14ba16ae55d2cbefdc07f97e156fa317033890f6f90c9851a32a7ba0b5e6fa07"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-deleted-resigned-keyed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ec5cb505e9de79399322ffc2e95ae7ab4115b42bf631cd5c58bf21b2c6d50390"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-deleted-resigned/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "eaa4139d3d50240c1092c3264027d0f6aa0b0ebcdb6b2fb8af879d68eecfb5b3"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-deleted-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2c590ebd063aebcee5a221118d2e52ebb482f4869c3bcab738b6a884e5dd4fb7"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-deleted-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "eaa4139d3d50240c1092c3264027d0f6aa0b0ebcdb6b2fb8af879d68eecfb5b3"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-deleted-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2c590ebd063aebcee5a221118d2e52ebb482f4869c3bcab738b6a884e5dd4fb7"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-outcome-flipped/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5901f962cffd5bcbe0107ef4c3c93b3fcce7ca32c4342489891ed3287e58d5a7"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-outcome-flipped/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "fa221e7f08f1598701a190486e8ccda03cd1fbe05b3cfb6518c82b4748fdb391"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-outcome-flipped/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5901f962cffd5bcbe0107ef4c3c93b3fcce7ca32c4342489891ed3287e58d5a7"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-outcome-flipped/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "fa221e7f08f1598701a190486e8ccda03cd1fbe05b3cfb6518c82b4748fdb391"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-prev-hash-edited/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ee218beaef4f3cf3bd6ab1331bc20849815b1c5ac8ebddde3faa17ce1cadb8be"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-prev-hash-edited/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "d3816b6dc9c4accd34e59a06384607911d15ba6e64d440d711f8000910106e64"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-prev-hash-edited/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ee218beaef4f3cf3bd6ab1331bc20849815b1c5ac8ebddde3faa17ce1cadb8be"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-prev-hash-edited/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "d3816b6dc9c4accd34e59a06384607911d15ba6e64d440d711f8000910106e64"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-rehashed-after-edit/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "852668d5f88dc5d06d1016fd6afbaa9cd271e4064d10eaa22f664f403d5328b5"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-rehashed-after-edit/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "af75d48863ed9a91abc25af90277728d91706ee5bb2341c422576f3130e98146"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-rehashed-after-edit/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "852668d5f88dc5d06d1016fd6afbaa9cd271e4064d10eaa22f664f403d5328b5"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-rehashed-after-edit/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "af75d48863ed9a91abc25af90277728d91706ee5bb2341c422576f3130e98146"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-undeclared-key/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "cdc573f58ff0ec5462b0dd45c13f392f80032e61723d5cf8555d27ed449f2435"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-undeclared-key/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4004e1b93e7daedf03637dd1a6067d210b0888a150ead1a0652eb3c5f61802a5"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-undeclared-key/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "cdc573f58ff0ec5462b0dd45c13f392f80032e61723d5cf8555d27ed449f2435"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-undeclared-key/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4004e1b93e7daedf03637dd1a6067d210b0888a150ead1a0652eb3c5f61802a5"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-version-unknown/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "68f14427cd37a863ad3120e6e9de67d27c67a9ba5f0d9ad22b0c057f2cfaf24f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-version-unknown/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b2cdb242444024863832aa252f9a1d578b0b0067ef2c079a499e171013e62cc8"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-version-unknown/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "68f14427cd37a863ad3120e6e9de67d27c67a9ba5f0d9ad22b0c057f2cfaf24f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/row-version-unknown/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b2cdb242444024863832aa252f9a1d578b0b0067ef2c079a499e171013e62cc8"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-mixed-versions/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6a762d39a91a463fbed7c9b18fc299b88ea6b9cd05edd05e90d0971989fe1186"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-mixed-versions/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "d9d2b8ea312a366b6e50e523205de064fe2883faf8a3014fecf764a28d6f97f9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-mixed-versions/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6a762d39a91a463fbed7c9b18fc299b88ea6b9cd05edd05e90d0971989fe1186"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-mixed-versions/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "d9d2b8ea312a366b6e50e523205de064fe2883faf8a3014fecf764a28d6f97f9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-rehashed-forward-not-resigned/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a5a248783b747fb0f8af190f044fe6e75ca4800702ea9a734c82b89c86fc86bb"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-rehashed-forward-not-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ae958a3cbec15fbbf884db693c48ca7291ce4d35413f8ed5e956dcae4b964fb8"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-rehashed-forward-not-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a5a248783b747fb0f8af190f044fe6e75ca4800702ea9a734c82b89c86fc86bb"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-rehashed-forward-not-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ae958a3cbec15fbbf884db693c48ca7291ce4d35413f8ed5e956dcae4b964fb8"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-rehashed-forward-resigned/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c0212e5c06de47c1949c4bceff379d74192baf467e94e66d1a95cc670f8a5bd9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-rehashed-forward-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "7e593617c748450057b1566ef58dfd715a120c84e3719921a45f8b8fb83536a6"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-rehashed-forward-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c0212e5c06de47c1949c4bceff379d74192baf467e94e66d1a95cc670f8a5bd9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/rows-rehashed-forward-resigned/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "7e593617c748450057b1566ef58dfd715a120c84e3719921a45f8b8fb83536a6"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signature-wrong/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "dd672b4942c4ccc6b3d476a8df3d3bcc7be936c2fd9a2f92d69b1e8231e64421"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signature-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a264aae8da2ea50d3c0dd490c73f71c09242cffa0c6203b1dd6e553934ff6830"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signature-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "dd672b4942c4ccc6b3d476a8df3d3bcc7be936c2fd9a2f92d69b1e8231e64421"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signature-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a264aae8da2ea50d3c0dd490c73f71c09242cffa0c6203b1dd6e553934ff6830"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signed-by-retired-key/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5601d47f364880ba0ff1fd03b5d3774b0d1a76b344d0db81bc909f67a95e71ef"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signed-by-retired-key/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "560d16ff76691fbb795150fcb2846bae377ebbb181cdf3479120c095b252bef7"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signed-by-retired-key/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5601d47f364880ba0ff1fd03b5d3774b0d1a76b344d0db81bc909f67a95e71ef"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signed-by-retired-key/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "560d16ff76691fbb795150fcb2846bae377ebbb181cdf3479120c095b252bef7"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signed-by-revoked-key/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "38936a868d4eec3fb9e74dcc303f9b8274182345bedacc95175cb4eb945148d1"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signed-by-revoked-key/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8f88bf6a53b2ca2be7826082d7670eb5f0f99b717c92878321dccdc1b66e2847"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signed-by-revoked-key/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "38936a868d4eec3fb9e74dcc303f9b8274182345bedacc95175cb4eb945148d1"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/signed-by-revoked-key/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8f88bf6a53b2ca2be7826082d7670eb5f0f99b717c92878321dccdc1b66e2847"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1-receipts/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ca79b90508006ec3f1d9e00c39caa3d8c77de1c2666e9adc2f272705dfa8ffc2"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1-receipts/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "706186feb6d3f8f12c1456733da609453c5a34cec059c20a9abd2f1e1cf47065"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1-receipts/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ca79b90508006ec3f1d9e00c39caa3d8c77de1c2666e9adc2f272705dfa8ffc2"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1-receipts/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "706186feb6d3f8f12c1456733da609453c5a34cec059c20a9abd2f1e1cf47065"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1-witnessed/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "47aca5df5bd2c412855045d14430af207fc4d8e849a84785c76ed20ad1e6bb60"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1-witnessed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1134c2e2f0123332fb2175bc90e8547e9a305642ab71ab218d8dc8e6b0297a8b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1-witnessed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "47aca5df5bd2c412855045d14430af207fc4d8e849a84785c76ed20ad1e6bb60"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1-witnessed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1134c2e2f0123332fb2175bc90e8547e9a305642ab71ab218d8dc8e6b0297a8b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c1b396f5ab7ca67b003394bd87816efa0f4ff78b94cbbabf1d6d1357938b943a"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "679e02c0de01831f4a6e8fb04349971ad485db6cdd54508182631cfcb9093c64"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c1b396f5ab7ca67b003394bd87816efa0f4ff78b94cbbabf1d6d1357938b943a"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour1/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "679e02c0de01831f4a6e8fb04349971ad485db6cdd54508182631cfcb9093c64"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour2-with-prior/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "be6de2eb03b62d39120f3197ba9108ff2d55414657e301d116a400fe560abafa"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour2-with-prior/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1ff9ca042580ec03bcfc6c86053205c32a18b58f4abe57caba54696d4805e3a9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour2-with-prior/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "be6de2eb03b62d39120f3197ba9108ff2d55414657e301d116a400fe560abafa"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour2-with-prior/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1ff9ca042580ec03bcfc6c86053205c32a18b58f4abe57caba54696d4805e3a9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour2-without-prior/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "d532fc9e62467ada0243afd8e4f42163ec695627ba498d4effcac5b19f090f60"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour2-without-prior/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "280d38c68c50335b2f350da97a8e343594ff336ec3c8fd811d6bf900229af1c9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour2-without-prior/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "d532fc9e62467ada0243afd8e4f42163ec695627ba498d4effcac5b19f090f60"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-hour2-without-prior/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "280d38c68c50335b2f350da97a8e343594ff336ec3c8fd811d6bf900229af1c9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-prior-wrong/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "babdc6cf2b8c774faa03e46677021b68252fc227cfc99ae643b341e4731ba677"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-prior-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "764d2017fef483a2584ecdc011b29aaac204373aa67847e133719660c48636ce"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-prior-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "babdc6cf2b8c774faa03e46677021b68252fc227cfc99ae643b341e4731ba677"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/stream-prior-wrong/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "764d2017fef483a2584ecdc011b29aaac204373aa67847e133719660c48636ce"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/toolgate-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "313e46064357a5de1641ab2f2c5b07d0d1575339a591e38e4659c1b7836a5e75"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/toolgate-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "3954c27af7f324fb4b766d9b70ffa3fed5907a004810177267b4ab526433fcc8"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/toolgate-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "313e46064357a5de1641ab2f2c5b07d0d1575339a591e38e4659c1b7836a5e75"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/toolgate-benchmark/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "3954c27af7f324fb4b766d9b70ffa3fed5907a004810177267b4ab526433fcc8"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/toolgate-production/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "22e1d284ef7885560fc8373727b2cc9bdfd2a39aa4a5a3e3853e2743a77bc762"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/toolgate-production/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6a28083ce493cb609948ef0c82973c364a13445854ade6637b02819c4c108399"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/toolgate-production/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "22e1d284ef7885560fc8373727b2cc9bdfd2a39aa4a5a3e3853e2743a77bc762"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/toolgate-production/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6a28083ce493cb609948ef0c82973c364a13445854ade6637b02819c4c108399"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/unknown-key-id/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "197cf0a0ce4d7162b72b7959823ff75d1554adece41deb23766761d2710a6da4"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/unknown-key-id/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9a60559d686489f5a8468ad22830dd8adaf117a8b1edc448599a76ee22023814"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/unknown-key-id/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "197cf0a0ce4d7162b72b7959823ff75d1554adece41deb23766761d2710a6da4"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/unknown-key-id/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9a60559d686489f5a8468ad22830dd8adaf117a8b1edc448599a76ee22023814"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/witness-altered/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9c102e072856797f602dec6d6f02ed975d75ddb1d604fd29321d3cd1835f658d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/witness-altered/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1b7dab2fd8ff32ead1141cd8b7be222c602599b915c2848c6f396d2b8241663e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/witness-altered/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9c102e072856797f602dec6d6f02ed975d75ddb1d604fd29321d3cd1835f658d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/witness-altered/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1b7dab2fd8ff32ead1141cd8b7be222c602599b915c2848c6f396d2b8241663e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/witness-self-signed/run",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2af3965ea06bde364187c934c0bcfaca7d4c35ba4e4fd029c9f5b25e97e47db8"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/witness-self-signed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "84b6a762a5420a05eb7879372157c92ee888f2e676de0c8d44a158cd92eeef11"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/witness-self-signed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2af3965ea06bde364187c934c0bcfaca7d4c35ba4e4fd029c9f5b25e97e47db8"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/cases/witness-self-signed/run",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "84b6a762a5420a05eb7879372157c92ee888f2e676de0c8d44a158cd92eeef11"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/inputs/stream-hour1",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b3a9d0c138d208ce5775e53b5d29151a64a4dc48ff751e9a6524998d1f363979"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/inputs/stream-hour1",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a2fcff1f1592e0949a4591137cc5d9456c40394b5ed3b0451760ce3a8ed0113b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/inputs/stream-hour1",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b3a9d0c138d208ce5775e53b5d29151a64a4dc48ff751e9a6524998d1f363979"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "conformance/verifier/inputs/stream-hour1",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a2fcff1f1592e0949a4591137cc5d9456c40394b5ed3b0451760ce3a8ed0113b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/fabricated",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b1fe5dac5a7d0245549c02fe5e2786dc559ffe42fa002c72a4f674c05eb7e0c6"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/fabricated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6b70323b3fc97d3b0bdad2d9e55e447d77333225468e951726a55a253c2a9efc"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/fabricated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b36e67fbc06ce8ed1b2093bfad28009183fedbd63cf7055e228041df8ddf0f09"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/fabricated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1242727f37b0c93d88ac0d64457383acff78f45475b9234fc556bbfdf53f6e9e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/forged-attestation",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ac8e4167733601280ac23b46835a9fd5eb97f7dc2cbe5ad293410968cfb8673a"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/forged-attestation",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "235967fac42799cb7c77f6aee80ec1c12608746198dac3aaea3dacac9ba91d11"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/forged-attestation",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "33ba514a27554ec7c75a86f8f16c0b7927314f0448abedf07b29b33400d142c7"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/forged-attestation",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "ab8412923ec5ad38f11bc360332dd88788cb4132c66c73416b102b5a0bea99c5"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/gated",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "39987574775eb63164d93714c503c61fbb447c84b137ea3f824232e1d5a2c583"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/gated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "afb35fdb04ba6d07daa0ac4329af15d7c295e5b8d62cf7152273cf7432579b28"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/gated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "69e21d9a93917ed88039e15784e8ff594cccf81107e7d456485597dc4d13b2a3"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/gated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "73805806b17227f23eb38450444317b81e5f01a10065974c296579e0214a9990"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/names-9.9.9",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "f0974ebb87644c11bedbc017831fa5dfe14239e85951bfee2f1c1cdccc7063f5"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/names-9.9.9",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "d7964eafac147720c5cc692d4d84dbd784c879b359ca366e40172630169f9dc0"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/names-9.9.9",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "f0974ebb87644c11bedbc017831fa5dfe14239e85951bfee2f1c1cdccc7063f5"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/names-9.9.9",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "d7964eafac147720c5cc692d4d84dbd784c879b359ca366e40172630169f9dc0"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/names-9.9.9-excluded",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6d3c568fdff4ffb2f66446dfdf98fd96ce33270e611f589c0a00644ce2b2d34f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/names-9.9.9-excluded",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a70b5c0947c1c1d12b065bc50b7e1e918d0dfa0ade0706d144471e2d914fb8b9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/names-9.9.9-excluded",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6d3c568fdff4ffb2f66446dfdf98fd96ce33270e611f589c0a00644ce2b2d34f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/names-9.9.9-excluded",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a70b5c0947c1c1d12b065bc50b7e1e918d0dfa0ade0706d144471e2d914fb8b9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/record",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c3a1ede1633cbb08a00a118af1746e5a1737bbc000b4dd4ade7a0401741a752b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/record",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "8adbbf99644da1de4c554e7a7f439ff560eaeb801825c0f5f0379b254ea0d962"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/record",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "41de04cf87d9704595c71f5d92bf9b3c67cbd83bb0bd94f1765f0fbbf13d8ef4"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/record",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "be9e30e13375ef670be5943a51612dddd73c54283a10981a79b4d128c000f9b2"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/tampered-row",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "55595060b036cbfde0916d7b2f81c63f77614cd9742f088cf21915a60ecad554"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/tampered-row",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "89505b300f39ac5f5dd63d27cff5b097aecc5b49488e1788e40377e64817f790"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/tampered-row",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "55595060b036cbfde0916d7b2f81c63f77614cd9742f088cf21915a60ecad554"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/tampered-row",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "89505b300f39ac5f5dd63d27cff5b097aecc5b49488e1788e40377e64817f790"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/truncated",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "96f3caa32e89c823f8a0d362107c09fe1c7b15a6b9e872f77f1f61adc20fa0e3"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/truncated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6f5fb0b9fec17dc5c7ff92b802b04f9a1e29d3462321489e3a3edfe00b843d8d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/truncated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5cdb1a75bc4827a6b38b1ef92a30f70ab68d4e82f6a85b6380d8b8ed7509bdde"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/truncated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "31435b2095a9b5669793f0b12dae7dac6f78fe551791472e8b4d3afe3a0ae648"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/truncated-interior",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "02e878e474c8a50d55b30593b6c5d290f0cf62ec1d61243d3093d65a52be6de7"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/truncated-interior",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "e402616148f8d2abb018ac732091f9dc57776b1d2dd83046e3825a0234068b05"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/truncated-interior",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c668c47bafc901310ef44f1e4503209acd7d70b2296db9a712c113773b0dc2e9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/truncated-interior",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "79e25d637072920b48dc2b8e6d5d52823e67be157f0812f8802695a7a86904f5"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/conformance-drt-sample",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2ea95d8c2aa535f0463cb5d6fd988606ceef34596e9728a87f275eeb4414ae13"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/conformance-drt-sample",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5e25a25aaac5854f638941958a31fd696fe9dff9355887c04fa0b3e7560d544b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/conformance-drt-sample",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2ea95d8c2aa535f0463cb5d6fd988606ceef34596e9728a87f275eeb4414ae13"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/conformance-drt-sample",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5e25a25aaac5854f638941958a31fd696fe9dff9355887c04fa0b3e7560d544b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/conformance-handwritten",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1ab0c1c60b699badf4071aef43920d54547bd4bb3816f5715c16869225659101"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/conformance-handwritten",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "bab2f6ccaf57643569c288ba5496468a4c174e1ec8f8dfd2ae7174ea3de8cdd6"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/conformance-handwritten",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1ab0c1c60b699badf4071aef43920d54547bd4bb3816f5715c16869225659101"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/conformance-handwritten",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "bab2f6ccaf57643569c288ba5496468a4c174e1ec8f8dfd2ae7174ea3de8cdd6"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-caller",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c3c2ca998faf483f15990d3ac35c6feec68ecabaf1c8472d5551d8ccf8a95e31"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-caller",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4cf0685d020fa13b869efb850b35b75d8d46ee184e4cde25da2608ef43e00560"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-caller",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "c3c2ca998faf483f15990d3ac35c6feec68ecabaf1c8472d5551d8ccf8a95e31"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-caller",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4cf0685d020fa13b869efb850b35b75d8d46ee184e4cde25da2608ef43e00560"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-canonical",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "fbaa9ff9899c302b3c7349493327893b4c1bcfc79b69a09e050e386fc5ebac7d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-canonical",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b3d2747c5ca053188df89eed64b7d82ce1ac3430ead499686f6d838871808f26"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-canonical",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "fbaa9ff9899c302b3c7349493327893b4c1bcfc79b69a09e050e386fc5ebac7d"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-canonical",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "b3d2747c5ca053188df89eed64b7d82ce1ac3430ead499686f6d838871808f26"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-lean",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "23510aecb20ed99818126368720d23c1663ab100d7bfc1d00fb99f526731aa53"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-lean",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4d838dbdd06a49a5adf045fb101d088ce378eeab0afcecd23be488787fad5609"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-lean",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "23510aecb20ed99818126368720d23c1663ab100d7bfc1d00fb99f526731aa53"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-lean",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "4d838dbdd06a49a5adf045fb101d088ce378eeab0afcecd23be488787fad5609"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-store",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "693e02340e84916dc98514e38309ea66e558fe684fd032e2f7963d7ffbb53822"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-store",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9cd2639dea0d1ff3925e6d02042eaf32d4523a7ab812fe645826b00d8a11b727"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-store",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "693e02340e84916dc98514e38309ea66e558fe684fd032e2f7963d7ffbb53822"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/cedar/out/toolcalls-store",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9cd2639dea0d1ff3925e6d02042eaf32d4523a7ab812fe645826b00d8a11b727"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/conformance-sample",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "e7d8fadf02d9cfa8f10467bf4c8650db43ca1556e8e9369a7fe7efac669fcd4e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/conformance-sample",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9d804574e8788d40ee890401cb01303974598e4cdc7afd270a25c3670244d8ba"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/conformance-sample",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "e7d8fadf02d9cfa8f10467bf4c8650db43ca1556e8e9369a7fe7efac669fcd4e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/conformance-sample",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9d804574e8788d40ee890401cb01303974598e4cdc7afd270a25c3670244d8ba"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-caller",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "13066785cf0359c19da239b6878ef9bd10c400169b1645eab7b09f0ef5913813"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-caller",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2988a22633fe06ba494be02e770843a3ec5ecfe64eaa1494c9f97963bceef042"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-caller",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "13066785cf0359c19da239b6878ef9bd10c400169b1645eab7b09f0ef5913813"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-caller",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2988a22633fe06ba494be02e770843a3ec5ecfe64eaa1494c9f97963bceef042"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-canonical",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "93de30034443514e2a0b8f5a7062721f4b29e42fda1f982cbfd489ec41fc9575"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-canonical",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "51d93f63b17a4349385b12c9c82b35d8c9db2b40bffebde3f327991a0630b05f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-canonical",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "93de30034443514e2a0b8f5a7062721f4b29e42fda1f982cbfd489ec41fc9575"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-canonical",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "51d93f63b17a4349385b12c9c82b35d8c9db2b40bffebde3f327991a0630b05f"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-store",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "253f1d1943fd9c63707fadb6ce795d8c13575f97e15b23e698b6980f91c7dbb1"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-store",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "35a8765e6df4180b4474d746e4fecd527168cdb3bb18e538d50f71762023856e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-store",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "253f1d1943fd9c63707fadb6ce795d8c13575f97e15b23e698b6980f91c7dbb1"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/opa/out/toolcalls-store",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "35a8765e6df4180b4474d746e4fecd527168cdb3bb18e538d50f71762023856e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/classrouter-benchmark",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "687e786195c8fe57a7e7697d3c5043f1cbda40c4e7d5e86fdf5a53dc07a1fbcd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/classrouter-benchmark",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "65086978ca810b869a6efa6670cb28df73820e797877189363c4408c81f7f121"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/classrouter-benchmark",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "687e786195c8fe57a7e7697d3c5043f1cbda40c4e7d5e86fdf5a53dc07a1fbcd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/classrouter-benchmark",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "65086978ca810b869a6efa6670cb28df73820e797877189363c4408c81f7f121"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/ratelimit-production",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "71a2a00e71fd99d58832d992f89fd10085b91a6cb577b8b879cebee1c61ce6dc"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/ratelimit-production",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "502e243e5a51271a05591e8bc3510ba19ebdc76adc7117cc4584e79f733097c9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/ratelimit-production",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "71a2a00e71fd99d58832d992f89fd10085b91a6cb577b8b879cebee1c61ce6dc"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/ratelimit-production",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "502e243e5a51271a05591e8bc3510ba19ebdc76adc7117cc4584e79f733097c9"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/ratelimit-production-keyed",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "257ed0cdfa278b93a1fd369ecb10fe6e2877ccd2f6d5833fa713ee8a4e8faa95"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/ratelimit-production-keyed",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "0c33997a01f75f8ce0175f38d6e21c2a85052e578b17f9fccd0561505d98bfbd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/ratelimit-production-keyed",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "257ed0cdfa278b93a1fd369ecb10fe6e2877ccd2f6d5833fa713ee8a4e8faa95"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/ratelimit-production-keyed",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "0c33997a01f75f8ce0175f38d6e21c2a85052e578b17f9fccd0561505d98bfbd"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/stream-hour1",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5b52c5183dcaf98b4cb8e1cb1d0276479877ded9fb8ce701e55edc4f286222b0"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/stream-hour1",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6e54d1c7b6ae7d49f120cc9545e1425da744570755ab71fdbc346a1d4f83a15a"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/stream-hour1",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "5b52c5183dcaf98b4cb8e1cb1d0276479877ded9fb8ce701e55edc4f286222b0"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/stream-hour1",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "6e54d1c7b6ae7d49f120cc9545e1425da744570755ab71fdbc346a1d4f83a15a"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/stream-hour2",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2a91659fee218d30938e8588dc7d90a3f50526e7617f03d1527c069988ab1f79"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/stream-hour2",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "65fd5b4d25ff5bd246a6a7040994ece3b1a054acef09d51ceafa06dca4308048"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/stream-hour2",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2a91659fee218d30938e8588dc7d90a3f50526e7617f03d1527c069988ab1f79"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/stream-hour2",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 1,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "65fd5b4d25ff5bd246a6a7040994ece3b1a054acef09d51ceafa06dca4308048"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/toolgate-benchmark",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2f6303808173892d25c2c4f882faf7541778cac83406ab6d89ba9e46ca898276"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/toolgate-benchmark",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9856f61f9fc124d10c81499cec6bcab70694b5df946bf37dd4aa1052dd3daebf"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/toolgate-benchmark",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "2f6303808173892d25c2c4f882faf7541778cac83406ab6d89ba9e46ca898276"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/toolgate-benchmark",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9856f61f9fc124d10c81499cec6bcab70694b5df946bf37dd4aa1052dd3daebf"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/toolgate-production",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "500726fc5c98b2c4119ff3cd96dac17d70a4af6e1fd9d9d90140040afe770d7e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/toolgate-production",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "05661bf84ee272b06ed1a614b271fa3ef0879abb815e79f52dd7d8b0a5c0f89b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/toolgate-production",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "500726fc5c98b2c4119ff3cd96dac17d70a4af6e1fd9d9d90140040afe770d7e"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/out/toolgate-production",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "05661bf84ee272b06ed1a614b271fa3ef0879abb815e79f52dd7d8b0a5c0f89b"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "experiments/rederivability/out/f5-input-fabricated",
+    "--registry",
+    "examples/keys/registry.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "49581ab3308b08d331db9a39af4558d58bcaa2783e1db1ec111ccce24cdcc871"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "experiments/rederivability/out/f5-input-fabricated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "9525e0f8df391eea6e38cc10694704226e6909813c9313da2d123231bbe90007"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "experiments/rederivability/out/f5-input-fabricated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "03f970ea158ae44cefcf7667cc7ccd34898b54282968560b66960a3577da9820"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "experiments/rederivability/out/f5-input-fabricated",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "7d34d8db8cf8471ca94b16bf8b21cb7e40fd7b21a144a3127d8e804648808fc3"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/record",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--replay",
+    "emitters.toolgate"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "1672d1c990d247a364ae4acb70ae186e326a27168219bb4adc16db2ff105f217"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "experiments/rederivability/out/f5-input-fabricated",
+    "--registry",
+    "experiments/rederivability/out/registry.json",
+    "--decider-registry",
+    "experiments/rederivability/out/deciders.json",
+    "--replay",
+    "emitters.cedar"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "7395102400e48876001d7468ba2bb0b2860b3b4e8b7e03b1c594e0738f6dae79"
+  },
+  {
+   "args": [
+    "tools.verify_arrival",
+    "examples/acceptance/out/gated",
+    "--registry",
+    "examples/acceptance/out/gated.producer.json",
+    "--decider-registry",
+    "examples/acceptance/out/gated.decider.json",
+    "--attester-registry",
+    "examples/acceptance/out/gated.attester.json",
+    "--arrival-log",
+    "examples/acceptance/out/gated.attester-log.jsonl",
+    "--replay",
+    "emitters.toolgate"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "42ce3a5fa85870012016e560f391760b7fc3b05ed05632143113ca00a31e790f"
+  },
+  {
+   "args": [
+    "tools.verify_arrival",
+    "examples/acceptance/out/fabricated",
+    "--registry",
+    "examples/acceptance/out/fabricated.producer.json",
+    "--decider-registry",
+    "examples/acceptance/out/fabricated.decider.json",
+    "--attester-registry",
+    "examples/acceptance/out/fabricated.attester.json",
+    "--arrival-log",
+    "examples/acceptance/out/fabricated.attester-log.jsonl",
+    "--replay",
+    "emitters.toolgate"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "d42b942e364c0758dcc9f5bff32e361ae33b1db28c891d3611245977ef000215"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "examples/acceptance/out/record",
+    "--registry",
+    "examples/keys/registry.json",
+    "--decider-registry",
+    "examples/keys/deciders.json",
+    "--replay",
+    "emitters.toolgate",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "a235ec3b9729f607b20e22eea665e3ccfa0a205e6f42d63843bf9df013e9ae50"
+  },
+  {
+   "args": [
+    "dr.verify",
+    "experiments/rederivability/out/f5-input-fabricated",
+    "--registry",
+    "experiments/rederivability/out/registry.json",
+    "--decider-registry",
+    "experiments/rederivability/out/deciders.json",
+    "--replay",
+    "emitters.cedar",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "45eea9e6bfffcb9bd3699e7415587fdaa1aa72da0a65ed2bfba41b416e3e1d1e"
+  },
+  {
+   "args": [
+    "tools.verify_arrival",
+    "examples/acceptance/out/gated",
+    "--registry",
+    "examples/acceptance/out/gated.producer.json",
+    "--decider-registry",
+    "examples/acceptance/out/gated.decider.json",
+    "--attester-registry",
+    "examples/acceptance/out/gated.attester.json",
+    "--arrival-log",
+    "examples/acceptance/out/gated.attester-log.jsonl",
+    "--replay",
+    "emitters.toolgate",
+    "--json"
+   ],
+   "exit": 0,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "7677fd929c9f36fecb4835f77524afab07ab7b357eb17f6a3cd9e6016e1a9de5"
+  },
+  {
+   "args": [
+    "tools.verify_arrival",
+    "examples/acceptance/out/fabricated",
+    "--registry",
+    "examples/acceptance/out/fabricated.producer.json",
+    "--decider-registry",
+    "examples/acceptance/out/fabricated.decider.json",
+    "--attester-registry",
+    "examples/acceptance/out/fabricated.attester.json",
+    "--arrival-log",
+    "examples/acceptance/out/fabricated.attester-log.jsonl",
+    "--replay",
+    "emitters.toolgate",
+    "--json"
+   ],
+   "exit": 2,
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stdout_sha256": "dc8e7186ba4d28471103dbe7416cdad89c628ada89d8a4c621b856a8fca55ab1"
+  }
+ ],
+ "generated_from": "eb54afb4b2241e937d2b0f36af32a859c7a557f3"
+}

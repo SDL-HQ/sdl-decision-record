@@ -1,0 +1,67 @@
+Decision Record
+Copyright 2026 SDL Limited, trading as Structural Design Labs
+
+This product includes software developed by SDL Limited.
+
+Three kinds of thing ship here and they carry different terms. To find a
+file's terms, take the first rule below that matches its path; the first match
+decides.
+
+1. LICENSE and LICENSES/ are the licence texts.
+
+2. Everything under vendor/ is third-party material under its own terms, named
+   below.
+
+3. THE PROSE DOCUMENTS are every Markdown (.md) file, wherever it sits: the
+   specification, the decision index, the seam table, this README, the results
+   and the acceptance procedure. They are under the Creative Commons
+   Attribution-NoDerivatives 4.0 International licence, whose text is in
+   LICENSES/CC-BY-ND-4.0.txt. You may keep them, copy them and share them,
+   unmodified and attributed. You may not share a modified version.
+
+4. THE SOFTWARE is every .py and .sh file, wherever it sits. It is under the
+   terms in LICENSE. Run it to evaluate it; do not redistribute it; do not
+   deploy it.
+
+5. THE EVIDENCE is everything else under a directory named out/, everything
+   else under conformance/, and every .jsonl file: the captured verifier
+   output, the records, the ledgers and the conformance cases, including the
+   policy a record retains. It is under the Creative Commons Attribution 4.0
+   International licence, whose text is in LICENSES/CC-BY-4.0.txt. You may
+   keep, share and adapt it, attributed: run the verifier over these records,
+   annotate them, transform them and publish what you find.
+
+6. Anything else is part of THE SOFTWARE, under LICENSE: the policy and
+   configuration files the code reads, pyproject.toml, and the example keys.
+
+Why they differ. A specification whose reader may not keep a copy after
+thirty-two days cannot be cited, and the argument this work rests on is that
+somebody can implement the format from the specification alone. Implementing
+a format from its specification is not modifying the specification's text, so
+the prose can be kept and cited, and the format implemented from it, while
+there remains one text of what the format is. The evidence is there to be
+checked, and checking it often means publishing a changed copy of it.
+
+Both Creative Commons licences state expressly, at clause 2(b)(2), that patent
+and trademark rights are not licensed under them. The software's licence,
+LICENSE, contains its own patent licence, limited to its permitted purpose.
+
+The third-party material named below is under its own terms and is not SDL's
+to relicense.
+
+--------------------------------------------------------------------------
+Third-party material
+--------------------------------------------------------------------------
+
+vendor/cedar-integration-tests/
+    Cedar's hand-written integration test corpus, from
+    github.com/cedar-policy/cedar-integration-tests, under the Apache License
+    2.0. Its LICENSE and NOTICE travel with it in that directory. The notice
+    it requires to be carried reads:
+
+        Copyright Cedar Contributors
+
+Cedar's generated conformance corpus and OPA's test corpus are not vendored.
+They are fetched by digest at use time by tools/fetch_cedar_drt.py and
+tools/fetch_opa_testdata.py, and remain under their own licences wherever
+they are fetched to.

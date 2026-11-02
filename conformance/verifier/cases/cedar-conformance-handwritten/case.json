@@ -1,0 +1,8 @@
+{
+ "name": "cedar-conformance-handwritten",
+ "kind": "committed record",
+ "source": "examples/cedar/out/conformance-handwritten",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

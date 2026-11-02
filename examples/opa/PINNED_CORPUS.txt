@@ -1,0 +1,1 @@
+fa9da828ec764aed7ff0ddb0ea12316edde9a8c9 v1.21.3  open-policy-agent/opa (v1/test/cases/testdata, 2,333 yaml files, 4,347 cases; Apache-2.0, LICENSE in the clone), not vendored; fetched by tools/fetch_opa_testdata.py

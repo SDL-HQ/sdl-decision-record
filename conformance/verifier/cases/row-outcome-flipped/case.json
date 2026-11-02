@@ -1,0 +1,9 @@
+{
+ "name": "row-outcome-flipped",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "row 4's outcome edited on disk; hashes left as they were",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

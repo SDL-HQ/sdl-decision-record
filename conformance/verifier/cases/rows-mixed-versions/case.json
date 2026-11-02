@@ -1,0 +1,9 @@
+{
+ "name": "rows-mixed-versions",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "row 3 declares v 2 in a v 1 ledger",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

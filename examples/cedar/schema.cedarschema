@@ -1,0 +1,17 @@
+// An agent's privileged calls. Entities the gate resolves from its own store
+// carry the attributes a policy decides on; the caller supplies the call.
+namespace Agentic {
+  entity Agent = { "tenant": String, "role": String, "mail_domain": String };
+  entity Host = { "name": String, "allowlisted": Bool };
+  entity Path = { "root": String, "path": String };
+  entity Mailbox = { "domain": String };
+  entity Account = { "tenant": String };
+
+  action "http.get" appliesTo { principal: [Agent], resource: [Host], context: { "scheme": String, "url_path": String } };
+  action "http.post" appliesTo { principal: [Agent], resource: [Host], context: { "scheme": String, "url_path": String, "body_bytes": Long } };
+  action "email.send" appliesTo { principal: [Agent], resource: [Mailbox], context: { "recipient_domain": String, "attachments": Long } };
+  action "fs.read" appliesTo { principal: [Agent], resource: [Path], context: { "path": String } };
+  action "fs.write" appliesTo { principal: [Agent], resource: [Path], context: { "path": String, "bytes": Long } };
+  action "shell.exec" appliesTo { principal: [Agent], resource: [Host], context: { "command": String, "approved": Bool } };
+  action "payments.transfer" appliesTo { principal: [Agent], resource: [Account], context: { "amount": Long, "currency": String, "intent_ref": String, "approved_intent": String } };
+}

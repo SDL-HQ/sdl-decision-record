@@ -1,0 +1,9 @@
+{
+ "name": "extra-file-unnamed",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "a file beside the ledger that the record does not name",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "name": "stream-hour1",
+ "kind": "committed record",
+ "source": "examples/out/stream-hour1",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

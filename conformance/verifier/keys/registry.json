@@ -1,0 +1,21 @@
+{
+  "registry_version": 1,
+  "keys": [
+    {
+      "key_id": "example-2026-10",
+      "status": "active",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARfui0heczgLyN37lHX5MQ3ILv+D33CyM8jJWeWekPD0=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "key_id": "example-2026-09",
+      "status": "retired",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAGHoSUYs1uhAAWLWG4hZEE/KXAnXbO+VA3fW6wtPhQhU=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "key_id": "example-compromised",
+      "status": "revoked",
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAo9E4jAkzHNqWGoxhjbwexRgUPAB8IUjOPz+n0YR8rHE=\n-----END PUBLIC KEY-----\n",
+      "trusted_after_revocation": []
+    }
+  ]
+}

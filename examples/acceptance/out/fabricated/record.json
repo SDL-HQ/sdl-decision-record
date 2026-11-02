@@ -1,0 +1,39 @@
+{
+  "counts": {
+    "by_outcome": {
+      "ALLOW": 10,
+      "DENY": 10
+    },
+    "decisions": 20
+  },
+  "decider": {
+    "id": "toolgate",
+    "outcomes": [
+      "ALLOW",
+      "DENY"
+    ],
+    "version": "1.0.0"
+  },
+  "format": "sdl-decision-record",
+  "format_version": 1,
+  "issued_at": "2026-10-28T06:00:00Z",
+  "ledger": {
+    "path": "decisions.jsonl",
+    "row_count": 20,
+    "terminal_hash": "sha256:0eebcf867cc4521b27d5c002d556d20b4c1b35e748b519a96092977837922397"
+  },
+  "payload_hash": "sha256:f97c31594533725b7d45503604211b1aa61dd53c6262ce67a3c2a153ffeddb06",
+  "policy_digests": [
+    "sha256:052cf913bae828db7e0566f5eadd7a481c55999d0e2b932ed9d92c806ce6ffc7"
+  ],
+  "profile": "production",
+  "record_id": "acceptance-fabricated-2026-10-28",
+  "retained": {
+    "arrivals.jsonl": "sha256:c3e8a8e6b50d17d28b267c852912cc7d32d98f6c90ac0e0c20bc155408916369",
+    "attestations.jsonl": "sha256:388726dac0a3664257d9c40fbff723891f114c6055db27cbeed1f2a99f54c2d5",
+    "inputs.jsonl": "sha256:fc81fe89d58e9c187309e4fea05c897dfbf6324e5d3311b01580418482a78d92",
+    "policy.json": "sha256:052cf913bae828db7e0566f5eadd7a481c55999d0e2b932ed9d92c806ce6ffc7"
+  },
+  "signature": "Vgm1spkUvFh2XLwOLipIE+kmUpWZX+Rk6PJKfmWc5FiP5lQVB5SpID+y4b8HKuBYCoZt6nfePx6ZMxCfM+pADQ==",
+  "signing_key_id": "producer"
+}

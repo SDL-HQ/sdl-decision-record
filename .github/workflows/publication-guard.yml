@@ -1,0 +1,69 @@
+name: Publication guard
+
+# The rules for what must never be committed live in SDL-HQ/sir-firewall and
+# are loaded from a pinned checkout and called, never copied here, so there is
+# one copy of them. The working-document family is on.
+#
+# Five --known exemptions, one per example key. The private keys under
+# examples/keys/ are needed because the example runs from a clean clone and
+# produces output a reader can compare byte for byte against what is committed,
+# and byte equality of a signed record requires the signing key. Verifying a
+# committed record needs only the registry, so all 54 committed records verify
+# without these files; it is re-emitting them that needs the keys. Embedding
+# the same key material as a seed in a script would hide it from this guard
+# without changing what is published. README.md says the same: the keys "are
+# for the example only and are committed on purpose. Anything signed with them
+# proves nothing about anyone."
+#
+# The entries are PATH=PHRASE, not file exemptions. A sixth key, a key of a
+# different length, or the same finding in another file all still refuse, and
+# any other --known argument is a reason to check what is committed, not to
+# add the argument.
+#
+# corpus/, results/ and vendor/ are exhibits: scanned for secrets, not for
+# writing, because third-party fixtures may contain any words at all. A key
+# planted inside an exhibit is still refused.
+#
+# RULES_PIN moves deliberately, in a commit that says what moved in the rules.
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+env:
+  RULES_PIN: ab5e2a4a678e6ce348d3848b7e7dea2161a700bf
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: self
+
+      - name: Check out the rules at the pin
+        uses: actions/checkout@v4
+        with:
+          repository: SDL-HQ/sir-firewall
+          ref: ${{ env.RULES_PIN }}
+          path: rules
+          sparse-checkout: |
+            tools/publication_rules.py
+            tools/check_publication_surface.py
+          sparse-checkout-cone-mode: false
+
+      - name: Scan
+        working-directory: self
+        run: |
+          python3 -I ../rules/tools/check_publication_surface.py \
+            --rules ../rules/tools/publication_rules.py \
+            --exhibit-prefix corpus/ \
+            --exhibit-prefix results/ \
+            --exhibit-prefix vendor/ \
+            --known 'examples/keys/decider-key.pem=PRIVATE KEY, 64 base64 characters' \
+            --known 'examples/keys/example-signing-key.pem=PRIVATE KEY, 64 base64 characters' \
+            --known 'examples/keys/retired-key.pem=PRIVATE KEY, 64 base64 characters' \
+            --known 'examples/keys/revoked-key.pem=PRIVATE KEY, 64 base64 characters' \
+            --known 'examples/keys/witness-key.pem=PRIVATE KEY, 64 base64 characters'

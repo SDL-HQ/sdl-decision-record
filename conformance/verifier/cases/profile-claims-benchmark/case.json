@@ -1,0 +1,9 @@
+{
+ "name": "profile-claims-benchmark",
+ "kind": "mutation",
+ "of": "toolgate-production",
+ "what": "an unlabelled ledger declared benchmark, re-signed",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

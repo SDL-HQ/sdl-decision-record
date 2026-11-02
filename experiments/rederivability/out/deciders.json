@@ -1,0 +1,10 @@
+{
+ "registry_version": 1,
+ "keys": [
+  {
+   "key_id": "rederivability-test-decider",
+   "status": "active",
+   "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjgdh0Rq8+LTN4iJdw8SpsOEzpUbpjzO+OxAxmSaYQtQ=\n-----END PUBLIC KEY-----\n"
+  }
+ ]
+}

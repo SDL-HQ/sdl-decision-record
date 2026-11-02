@@ -1,0 +1,18 @@
+examples/acceptance/out/tampered-row
+
+  OK      document       format_version 2 shape, and payload_hash recomputes from the canonical payload
+  OK      signing_trust  key 'example-2026-10' is active in the registry
+  OK      signature      the signature verifies over the payload
+  FAILED  chain          row 4: row_hash does not re-derive (stored 'sha256:ac1bbde70de85ec58a2e64fa719dab4c1fb4577cccd56942b6ce3f6ee1dcb2ac', computed 'sha256:825900f99529499419ed5d04a2622c2a8afb2f2e3b115e9e077c94a869ba1aab')
+  UNKNOWN decisions      not computed: the rows were not established
+  UNKNOWN profile        not computed: the rows were not established
+  UNKNOWN correctness    not computed: the rows were not established
+  UNKNOWN retained       not computed: the rows were not established
+  UNKNOWN replay         not computed: the rows were not established
+  UNKNOWN invocation     not computed: the rows were not established
+  UNKNOWN stream         not computed: the rows were not established
+  UNKNOWN completeness   not computed: the rows were not established
+  UNKNOWN receipts       not computed: the rows were not established
+  UNKNOWN witness        not computed: the rows were not established
+
+VERDICT: FAILED

@@ -1,0 +1,9 @@
+{
+ "name": "profile-lies-production",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "a benchmark ledger declared production, benchmark block removed, re-signed",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

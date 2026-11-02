@@ -1,0 +1,9 @@
+{
+ "name": "ledger-missing",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "the ledger file the record names is absent",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

@@ -1,0 +1,55 @@
+{
+  "benchmark": {
+    "agree": 9,
+    "by_label": {
+      "DENY": {
+        "DENY": 3
+      },
+      "REDACT": {
+        "REDACT": 2
+      },
+      "ROUTE": {
+        "ROUTE": 4
+      }
+    },
+    "disagree": 0,
+    "labelled": 9
+  },
+  "counts": {
+    "by_outcome": {
+      "DENY": 3,
+      "REDACT": 2,
+      "ROUTE": 4
+    },
+    "decisions": 9
+  },
+  "decider": {
+    "id": "classrouter",
+    "outcomes": [
+      "ROUTE",
+      "REDACT",
+      "DENY"
+    ],
+    "version": "1.0.0"
+  },
+  "format": "sdl-decision-record",
+  "format_version": 1,
+  "issued_at": "2026-10-18T04:00:00Z",
+  "ledger": {
+    "path": "decisions.jsonl",
+    "row_count": 9,
+    "terminal_hash": "sha256:7722871d664863eefa353be88bc7a85f8296fc25879f44638cdfaaa697c877f9"
+  },
+  "payload_hash": "sha256:95cb5634a7a9f56a3d1b2a1cc2b3044379af5b97effb472ad3d6ec6ed6ad54ef",
+  "policy_digests": [
+    "sha256:a58c5cf0fcd2ed43760d9dc8dbc5397828080e7395d9fec0b751d1ad36b5274a"
+  ],
+  "profile": "benchmark",
+  "record_id": "classrouter-suite-001",
+  "retained": {
+    "inputs.jsonl": "sha256:598a142439efbe2b6664ee830f6b1d35b4f70236615d1d6428ad9c12b1ba8663",
+    "policy.json": "sha256:a58c5cf0fcd2ed43760d9dc8dbc5397828080e7395d9fec0b751d1ad36b5274a"
+  },
+  "signature": "/qsxAm/2u2h/HgyIpQYD65oUXQ5skJbOOtU/04AxBATcq1jz9CIMUwjbjivW6Ou+mwNrNMz8EPWsl9BFlqtqAA==",
+  "signing_key_id": "example-2026-10"
+}

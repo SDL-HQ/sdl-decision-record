@@ -1,0 +1,12 @@
+{
+  "decision_no": 3,
+  "kind": "sdl-decision-receipt",
+  "payload_hash": "sha256:7920d444afb508c61fc502845777de846972770bc48228550e6c72f31756afc7",
+  "record_id": "toolgate-hour1",
+  "row_hash": "sha256:5b84c5465bb066d476fa63477eab3176709c492529b6a842477351648355bf10",
+  "seq": 3,
+  "signature": "+7B0GD7weSLfeMMPWIjZ09FG2WFitxJ+4nqgdhusiCO9bqVDpBw4ByELw5r/N88nvv2PhRgk5FcVhp2nf3zVCA==",
+  "signing_key_id": "example-2026-10",
+  "stream_id": "toolgate-traffic",
+  "ts": "2026-10-18T01:00:02Z"
+}

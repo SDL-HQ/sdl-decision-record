@@ -1,0 +1,38 @@
+{
+  "counts": {
+    "by_outcome": {
+      "ALLOW": 17,
+      "DENY": 23
+    },
+    "decisions": 40
+  },
+  "decider": {
+    "id": "cedar-authorizer",
+    "outcomes": [
+      "ALLOW",
+      "DENY"
+    ],
+    "version": "cedarpy-4.12.2"
+  },
+  "format": "sdl-decision-record",
+  "format_version": 1,
+  "issued_at": "2026-10-23T04:01:00Z",
+  "ledger": {
+    "path": "decisions.jsonl",
+    "row_count": 40,
+    "terminal_hash": "sha256:82e0dfe450053ec8f1f2cf0dc40c10b67a36814a55d57bf69fbc27165e63149c"
+  },
+  "payload_hash": "sha256:cb038b2469e0f2911b22a85e93a26ab9cc36e06668bf6fafb39542010fcdc045",
+  "policy_digests": [
+    "sha256:bb9bf7984e68cfd1ccf35eb921744322a7b01fa8c61b84e075fd9950ccac9a2a"
+  ],
+  "profile": "production",
+  "record_id": "forged-f5-input-fabricated",
+  "retained": {
+    "attestations.jsonl": "sha256:98b7ca5dd0a14cd26bf781ee4940fdf538e950b67134452a55e08c9ea449de94",
+    "inputs.jsonl": "sha256:6a44b92977f96a05a0115fcdc04e8c3b89f1fb1c838d7803f30ab4ca1c1ffeb0",
+    "policy.json": "sha256:bb9bf7984e68cfd1ccf35eb921744322a7b01fa8c61b84e075fd9950ccac9a2a"
+  },
+  "signature": "pKQ6aE+GqLRunr2S2ExEz06DmHIy7B8TFhAzwqjjFdCTdo6GbM6C7de/9lBI3BTonFnkPrdbPiBAoJTMkCBkCw==",
+  "signing_key_id": "rederivability-test-producer"
+}

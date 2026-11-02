@@ -1,0 +1,10 @@
+{
+ "registry_version": 1,
+ "keys": [
+  {
+   "key_id": "customer",
+   "status": "active",
+   "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA001JXddSmlamlZ42QxRkHP1CkPUmZT7DBd/F0y2tFS8=\n-----END PUBLIC KEY-----\n"
+  }
+ ]
+}

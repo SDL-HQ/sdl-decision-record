@@ -1,0 +1,12 @@
+{
+ "name": "stream-hour1-receipts",
+ "kind": "committed record",
+ "source": "examples/out/stream-hour1",
+ "options": {
+  "registry": "keys/registry.json",
+  "receipts": [
+   "inputs/stream-hour1-receipts/receipt-000001.json",
+   "inputs/stream-hour1-receipts/receipt-000020.json"
+  ]
+ }
+}

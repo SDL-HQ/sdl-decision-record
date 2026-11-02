@@ -1,0 +1,20 @@
+{
+ "exit_code": 2,
+ "properties": {
+  "chain": "failed",
+  "completeness": "unknown",
+  "correctness": "unknown",
+  "decisions": "unknown",
+  "document": "established",
+  "invocation": "unknown",
+  "profile": "unknown",
+  "receipts": "unknown",
+  "replay": "unknown",
+  "retained": "unknown",
+  "signature": "established",
+  "signing_trust": "established",
+  "stream": "unknown",
+  "witness": "unknown"
+ },
+ "verdict": "FAILED"
+}

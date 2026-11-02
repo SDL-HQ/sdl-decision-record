@@ -1,0 +1,22 @@
+{
+  "levels": [
+    "public",
+    "internal",
+    "confidential",
+    "secret"
+  ],
+  "destinations": {
+    "public_site": {
+      "max_level": "public",
+      "redactable": true
+    },
+    "partner_api": {
+      "max_level": "internal",
+      "redactable": true
+    },
+    "payments": {
+      "max_level": "confidential",
+      "redactable": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+ "name": "cedar-toolcalls-canonical",
+ "kind": "committed record",
+ "source": "examples/cedar/out/toolcalls-canonical",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

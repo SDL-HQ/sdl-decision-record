@@ -1,0 +1,12 @@
+{
+ "name": "receipt-foreign",
+ "kind": "mutation",
+ "of": "stream-hour1",
+ "what": "a receipt issued for the next record in the stream (hour 2, its decision 1, which is decision 21 of the stream) supplied against hour 1",
+ "options": {
+  "registry": "keys/registry.json",
+  "receipts": [
+   "inputs/stream-hour2-receipts/receipt-000001.json"
+  ]
+ }
+}

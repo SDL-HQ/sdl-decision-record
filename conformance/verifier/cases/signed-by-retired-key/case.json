@@ -1,0 +1,9 @@
+{
+ "name": "signed-by-retired-key",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "signed by the retired key under its own id",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

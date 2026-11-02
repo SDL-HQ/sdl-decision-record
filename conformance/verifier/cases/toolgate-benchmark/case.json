@@ -1,0 +1,8 @@
+{
+ "name": "toolgate-benchmark",
+ "kind": "committed record",
+ "source": "examples/out/toolgate-benchmark",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

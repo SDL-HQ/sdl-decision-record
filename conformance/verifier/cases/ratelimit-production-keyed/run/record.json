@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "by_outcome": {
+      "ALLOW": 15,
+      "DENY": 3
+    },
+    "decisions": 18
+  },
+  "decider": {
+    "id": "ratelimit",
+    "outcomes": [
+      "ALLOW",
+      "DENY"
+    ],
+    "version": "1.0.0"
+  },
+  "format": "sdl-decision-record",
+  "format_version": 1,
+  "issued_at": "2026-10-18T04:00:00Z",
+  "ledger": {
+    "path": "decisions.jsonl",
+    "row_count": 18,
+    "terminal_hash": "sha256:923f551e494de39d91eef2a11c4acbc91506114636f278b00c3970fcdcb5d663"
+  },
+  "payload_hash": "sha256:9db9947e0ec6042ae0939ba6c4e0dc2e557611b483fc5e44b73ade33d1aac6ac",
+  "policy_digests": [
+    "sha256:d81b96cd07f7df02ac1ebde2829e6ae6cee3d97ffaefb784db7c941a6ed7c151"
+  ],
+  "profile": "production",
+  "record_id": "ratelimit-traffic-001-keyed",
+  "retained": {
+    "inputs.jsonl": "sha256:e2dc0d7074cc2a179cf725dedd81c56d688aedae82f7584092940fdc6d9f931c",
+    "policy.json": "sha256:d81b96cd07f7df02ac1ebde2829e6ae6cee3d97ffaefb784db7c941a6ed7c151"
+  },
+  "signature": "eDylTB7qP6Bn6Mo4pm6TC5PFdnMmNLnurcd15Pt7gzxBx/Y8M9h4MpSjicmYtDU9vWH0n46RdpP/0sxbm3wpDQ==",
+  "signing_key_id": "example-2026-10"
+}

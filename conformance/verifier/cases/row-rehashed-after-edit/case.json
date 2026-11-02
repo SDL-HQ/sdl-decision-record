@@ -1,0 +1,9 @@
+{
+ "name": "row-rehashed-after-edit",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "row 4 edited and its own hash recomputed from its prev_hash; row 5's prev_hash no longer matches",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

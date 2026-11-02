@@ -1,0 +1,20 @@
+{
+ "exit_code": 2,
+ "properties": {
+  "chain": "established",
+  "completeness": "n/a",
+  "correctness": "established",
+  "decisions": "failed",
+  "document": "established",
+  "invocation": "n/a",
+  "profile": "established",
+  "receipts": "n/a",
+  "replay": "n/a",
+  "retained": "established",
+  "signature": "established",
+  "signing_trust": "established",
+  "stream": "n/a",
+  "witness": "n/a"
+ },
+ "verdict": "FAILED"
+}

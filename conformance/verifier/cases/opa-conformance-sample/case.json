@@ -1,0 +1,8 @@
+{
+ "name": "opa-conformance-sample",
+ "kind": "committed record",
+ "source": "examples/opa/out/conformance-sample",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

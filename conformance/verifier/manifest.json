@@ -1,0 +1,325 @@
+{
+ "cases": [
+  {
+   "name": "toolgate-benchmark",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "toolgate-production",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "ratelimit-production",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "ratelimit-production-keyed",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "classrouter-benchmark",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "stream-hour1",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "stream-hour2-with-prior",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "stream-hour2-without-prior",
+   "kind": "committed record",
+   "verdict": "NOT ESTABLISHED"
+  },
+  {
+   "name": "stream-hour1-receipts",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "stream-hour1-witnessed",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "cedar-toolcalls-canonical",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "cedar-conformance-handwritten",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "opa-conformance-sample",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "acceptance-attested",
+   "kind": "committed record",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "acceptance-attested-no-decider-registry",
+   "kind": "committed record",
+   "verdict": "NOT ESTABLISHED"
+  },
+  {
+   "name": "row-outcome-flipped",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "row 4's outcome edited on disk; hashes left as they were",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "row-prev-hash-edited",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "row 6's prev_hash replaced; its own row_hash left as it was",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "row-rehashed-after-edit",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "row 4 edited and its own hash recomputed from its prev_hash; row 5's prev_hash no longer matches",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "rows-rehashed-forward-not-resigned",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "row 4 edited and every hash recomputed forward; the record still signs the old terminal hash",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "rows-rehashed-forward-resigned",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "row 4 edited, hashes recomputed forward, counts re-derived, record re-signed by the producer (replay would catch it; nothing else can)",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "row-deleted-resigned",
+   "kind": "mutation",
+   "of": "toolgate-production",
+   "what": "row 7 deleted, the rest renumbered, counts re-derived, record re-signed: the completeness limit",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "row-deleted-resigned-keyed",
+   "kind": "mutation",
+   "of": "ratelimit-production-keyed",
+   "what": "row 7 deleted, the rest renumbered, counts re-derived, record re-signed: the completeness limit",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "counts-wrong",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "counts.decisions off by one in the record; signature now stale",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "counts-wrong-resigned",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "counts.decisions off by one and the record re-signed",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "profile-lies-production",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "a benchmark ledger declared production, benchmark block removed, re-signed",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "profile-claims-benchmark",
+   "kind": "mutation",
+   "of": "toolgate-production",
+   "what": "an unlabelled ledger declared benchmark, re-signed",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "payload-hash-wrong",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "payload_hash replaced; signature untouched",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "signature-wrong",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "last bytes of the signature altered",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "unknown-key-id",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "signing_key_id names a key the registry does not have; signed by the producer's key, re-signed",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "signed-by-retired-key",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "signed by the retired key under its own id",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "signed-by-revoked-key",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "signed by the revoked key; the registry does not list this payload_hash",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "retained-file-missing",
+   "kind": "mutation",
+   "of": "toolgate-production",
+   "what": "inputs.jsonl absent from this copy",
+   "verdict": "NOT ESTABLISHED"
+  },
+  {
+   "name": "retained-file-differs",
+   "kind": "mutation",
+   "of": "toolgate-production",
+   "what": "policy.json has one byte appended; its digest no longer matches",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "format-version-unknown",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "format_version 99, re-signed",
+   "verdict": "NOT ESTABLISHED"
+  },
+  {
+   "name": "row-version-unknown",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "every row declares v 99",
+   "verdict": "NOT ESTABLISHED"
+  },
+  {
+   "name": "rows-mixed-versions",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "row 3 declares v 2 in a v 1 ledger",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "row-undeclared-key",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "row 1 carries a key the row version does not declare",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "extra-file-unnamed",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "a file beside the ledger that the record does not name",
+   "verdict": "ESTABLISHED"
+  },
+  {
+   "name": "stream-prior-wrong",
+   "kind": "mutation",
+   "of": "stream-hour2-with-prior",
+   "what": "stream.prev_record_hash does not match the prior supplied",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "receipt-row-deleted",
+   "kind": "mutation",
+   "of": "stream-hour1-receipts",
+   "what": "row 20 deleted from the tail, counts re-derived, record re-signed; the receipt for decision 20 is still supplied",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "receipt-foreign",
+   "kind": "mutation",
+   "of": "stream-hour1",
+   "what": "a receipt issued for the next record in the stream (hour 2, its decision 1, which is decision 21 of the stream) supplied against hour 1",
+   "verdict": "NOT ESTABLISHED"
+  },
+  {
+   "name": "witness-altered",
+   "kind": "mutation",
+   "of": "stream-hour1-witnessed",
+   "what": "the witness statement supplied names a different payload_hash (case options point at an altered copy)",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "witness-self-signed",
+   "kind": "mutation",
+   "of": "stream-hour1",
+   "what": "a witness statement signed with the producer's own key, under a witness registry that enrols that key as 'independent-auditor-2026-10'",
+   "verdict": "NOT ESTABLISHED"
+  },
+  {
+   "name": "record-not-json",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "record.json is not JSON: the directory cannot be read",
+   "verdict": "UNREADABLE"
+  },
+  {
+   "name": "ledger-missing",
+   "kind": "mutation",
+   "of": "toolgate-benchmark",
+   "what": "the ledger file the record names is absent",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "attestation-forged",
+   "kind": "mutation",
+   "of": "acceptance-attested",
+   "what": "attestation for seq 2 edited; record re-signed by the producer",
+   "verdict": "FAILED"
+  },
+  {
+   "name": "attestation-missing",
+   "kind": "mutation",
+   "of": "acceptance-attested",
+   "what": "attestations for seq 4 and 5 removed; record re-signed",
+   "verdict": "FAILED"
+  }
+ ],
+ "property_names": [
+  "document",
+  "signing_trust",
+  "signature",
+  "chain",
+  "decisions",
+  "profile",
+  "correctness",
+  "retained",
+  "replay",
+  "invocation",
+  "stream",
+  "completeness",
+  "receipts",
+  "witness"
+ ],
+ "states": [
+  "established",
+  "unknown",
+  "failed",
+  "n/a"
+ ]
+}

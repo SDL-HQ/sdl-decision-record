@@ -1,0 +1,8 @@
+{
+ "name": "acceptance-attested-no-decider-registry",
+ "kind": "committed record",
+ "source": "examples/acceptance/out/record",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

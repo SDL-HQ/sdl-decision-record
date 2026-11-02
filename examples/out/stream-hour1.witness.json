@@ -1,0 +1,8 @@
+{
+  "kind": "sdl-witness-statement",
+  "payload_hash": "sha256:8137f6dcae6c25dff1758497f041a53d1fabe854c7ca7f9beeb509060396cbeb",
+  "record_payload_hash": "sha256:63e4882e9686adcf87125b354735b6166b7abbd0e8e93a978471af38ea558a5c",
+  "signature": "KsujRnHknGR5stLvy9heTjtk3IRmxpzlOz8r8nZlKUoMDU/w3xECF19PY2QS+bTGp/eyv8EzIzirXcCM+1zMDw==",
+  "witness_key_id": "example-witness-2026-10",
+  "witnessed_at": "2026-10-18T04:05:00Z"
+}

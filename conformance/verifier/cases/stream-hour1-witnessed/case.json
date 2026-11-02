@@ -1,0 +1,10 @@
+{
+ "name": "stream-hour1-witnessed",
+ "kind": "committed record",
+ "source": "examples/out/stream-hour1",
+ "options": {
+  "registry": "keys/registry.json",
+  "witness": "inputs/stream-hour1.witness.json",
+  "witness_registry": "keys/witnesses.json"
+ }
+}

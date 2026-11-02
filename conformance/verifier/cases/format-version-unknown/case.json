@@ -1,0 +1,9 @@
+{
+ "name": "format-version-unknown",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "format_version 99, re-signed",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

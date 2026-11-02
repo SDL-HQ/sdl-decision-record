@@ -1,0 +1,10 @@
+{
+ "name": "stream-prior-wrong",
+ "kind": "mutation",
+ "of": "stream-hour2-with-prior",
+ "what": "stream.prev_record_hash does not match the prior supplied",
+ "options": {
+  "registry": "keys/registry.json",
+  "prior": "inputs/stream-hour1/record.json"
+ }
+}

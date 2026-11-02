@@ -1,0 +1,9 @@
+{
+ "name": "row-undeclared-key",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "row 1 carries a key the row version does not declare",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

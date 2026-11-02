@@ -1,0 +1,9 @@
+{
+ "name": "row-prev-hash-edited",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "row 6's prev_hash replaced; its own row_hash left as it was",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

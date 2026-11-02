@@ -1,0 +1,9 @@
+{
+ "name": "unknown-key-id",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "signing_key_id names a key the registry does not have; signed by the producer's key, re-signed",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

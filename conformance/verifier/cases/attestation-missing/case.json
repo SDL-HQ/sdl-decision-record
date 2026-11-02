@@ -1,0 +1,10 @@
+{
+ "name": "attestation-missing",
+ "kind": "mutation",
+ "of": "acceptance-attested",
+ "what": "attestations for seq 4 and 5 removed; record re-signed",
+ "options": {
+  "registry": "keys/registry.json",
+  "decider_registry": "keys/deciders.json"
+ }
+}

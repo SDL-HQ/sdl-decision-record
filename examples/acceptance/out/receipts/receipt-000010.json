@@ -1,0 +1,12 @@
+{
+  "decision_no": 10,
+  "kind": "sdl-decision-receipt",
+  "payload_hash": "sha256:96c1d7c0a6d8b3663e5290ddcb69611370f6a704e5d8a59b7954fbd97e0bacab",
+  "record_id": "acceptance-2026-10-21",
+  "row_hash": "sha256:6fb2c0b05ecba919b8c0b36f59a2b9dd1378aa91e1f959e7fb631f9a48fc51e8",
+  "seq": 10,
+  "signature": "5u4FSeYuoC2Ymfqu2ECzf5udnfJl+9yThIiuH5TOr3TNYigkgSFwfDiM5N6BA3uP1g81G5IvXSSdxpiPhNPiAQ==",
+  "signing_key_id": "example-2026-10",
+  "stream_id": "acceptance",
+  "ts": "2026-10-18T01:00:09Z"
+}

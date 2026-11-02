@@ -1,0 +1,22 @@
+{
+ "full_corpus": {
+  "corpus": "an example corpus",
+  "engine": "9.9.9",
+  "requests": 1000,
+  "agree_decision_reason_and_error_presence": 900,
+  "excluded": [
+   {
+    "note": "case-a",
+    "reason": "named by the producer"
+   },
+   {
+    "note": "case-b",
+    "reason": "named by the producer"
+   },
+   {
+    "note": "case-c",
+    "reason": "named by the producer"
+   }
+  ]
+ }
+}

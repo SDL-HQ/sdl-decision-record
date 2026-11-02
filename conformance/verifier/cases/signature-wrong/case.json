@@ -1,0 +1,9 @@
+{
+ "name": "signature-wrong",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "last bytes of the signature altered",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

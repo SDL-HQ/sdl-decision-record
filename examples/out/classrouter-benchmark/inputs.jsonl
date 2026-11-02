@@ -1,0 +1,9 @@
+{"input": {"destination": "public_site", "fields": {"body": "public", "title": "public"}}, "seq": 1}
+{"input": {"destination": "public_site", "fields": {"author_email": "internal", "title": "public"}}, "seq": 2}
+{"input": {"destination": "partner_api", "fields": {"cost": "confidential", "margin": "confidential", "sku": "internal"}}, "seq": 3}
+{"input": {"destination": "payments", "fields": {"card_last4": "confidential"}}, "seq": 4}
+{"input": {"destination": "payments", "fields": {"card_pan": "secret"}}, "seq": 5}
+{"input": {"destination": "archive", "fields": {"x": "public"}}, "seq": 6}
+{"input": {"destination": "partner_api", "fields": {"note": "top_secret"}}, "seq": 7}
+{"input": {"destination": "public_site", "fields": {}}, "seq": 8}
+{"input": {"destination": "partner_api", "fields": {"a": "public", "b": "internal"}}, "seq": 9}

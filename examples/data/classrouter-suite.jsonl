@@ -1,0 +1,9 @@
+{"ts": "2026-10-18T03:00:00Z", "input": {"destination": "public_site", "fields": {"title": "public", "body": "public"}}, "label": "ROUTE"}
+{"ts": "2026-10-18T03:00:01Z", "input": {"destination": "public_site", "fields": {"title": "public", "author_email": "internal"}}, "label": "REDACT"}
+{"ts": "2026-10-18T03:00:02Z", "input": {"destination": "partner_api", "fields": {"sku": "internal", "cost": "confidential", "margin": "confidential"}}, "label": "REDACT"}
+{"ts": "2026-10-18T03:00:03Z", "input": {"destination": "payments", "fields": {"card_last4": "confidential"}}, "label": "ROUTE"}
+{"ts": "2026-10-18T03:00:04Z", "input": {"destination": "payments", "fields": {"card_pan": "secret"}}, "label": "DENY"}
+{"ts": "2026-10-18T03:00:05Z", "input": {"destination": "archive", "fields": {"x": "public"}}, "label": "DENY"}
+{"ts": "2026-10-18T03:00:06Z", "input": {"destination": "partner_api", "fields": {"note": "top_secret"}}, "label": "DENY"}
+{"ts": "2026-10-18T03:00:07Z", "input": {"destination": "public_site", "fields": {}}, "label": "ROUTE"}
+{"ts": "2026-10-18T03:00:08Z", "input": {"destination": "partner_api", "fields": {"a": "public", "b": "internal"}}, "label": "ROUTE"}

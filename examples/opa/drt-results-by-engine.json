@@ -1,0 +1,1305 @@
+{
+ "record": "examples/opa/out/conformance-sample",
+ "record_names": "opa-conformance@opa-1.21.3",
+ "corpus_pin": "fa9da828ec764aed7ff0ddb0ea12316edde9a8c9",
+ "engines": [
+  {
+   "engine": "opa-0.70.0",
+   "corpus_agree": 3741,
+   "corpus_requests": 4347,
+   "excluded": 6,
+   "result_where_corpus_expects_error": 12,
+   "error_where_corpus_expects_result": 450,
+   "disagreements_without_engine_error": 110,
+   "disagreement_kinds": {
+    "RESULT|ERROR": 421,
+    "error-differs": 28,
+    "value-differs": 41,
+    "RESULT|UNDEFINED": 69,
+    "ERROR|RESULT": 12,
+    "UNDEFINED|ERROR": 29
+   },
+   "silent_boolean_direction": {
+    "true-where-corpus-expects-false": 24,
+    "false-where-corpus-expects-true": 4,
+    "non-boolean-value": 13
+   },
+   "verifier_replay": "unknown",
+   "verifier_verdict": "NOT ESTABLISHED",
+   "verifier_exit": 1,
+   "forced_rows_differ": 52,
+   "forced_rows": 400,
+   "forced_flips": {
+    "RESULT->ERROR": 36,
+    "RESULT->UNDEFINED": 10,
+    "reason-only": 3,
+    "ERROR->RESULT": 1,
+    "UNDEFINED->ERROR": 2
+   }
+  },
+  {
+   "engine": "opa-1.0.0",
+   "corpus_agree": 3767,
+   "corpus_requests": 4347,
+   "excluded": 6,
+   "result_where_corpus_expects_error": 8,
+   "error_where_corpus_expects_result": 451,
+   "disagreements_without_engine_error": 91,
+   "disagreement_kinds": {
+    "RESULT|ERROR": 422,
+    "error-differs": 24,
+    "value-differs": 41,
+    "RESULT|UNDEFINED": 50,
+    "ERROR|RESULT": 8,
+    "UNDEFINED|ERROR": 29
+   },
+   "silent_boolean_direction": {
+    "true-where-corpus-expects-false": 24,
+    "false-where-corpus-expects-true": 4,
+    "non-boolean-value": 13
+   },
+   "verifier_replay": "unknown",
+   "verifier_verdict": "NOT ESTABLISHED",
+   "verifier_exit": 1,
+   "forced_rows_differ": 50,
+   "forced_rows": 400,
+   "forced_flips": {
+    "RESULT->ERROR": 36,
+    "RESULT->UNDEFINED": 9,
+    "reason-only": 3,
+    "UNDEFINED->ERROR": 2
+   }
+  },
+  {
+   "engine": "opa-1.21.3",
+   "corpus_agree": 4341,
+   "corpus_requests": 4347,
+   "excluded": 6,
+   "result_where_corpus_expects_error": 0,
+   "error_where_corpus_expects_result": 0,
+   "disagreements_without_engine_error": 0,
+   "disagreement_kinds": {},
+   "silent_boolean_direction": {},
+   "verifier_replay": "established",
+   "verifier_verdict": "ESTABLISHED",
+   "verifier_exit": 0,
+   "forced_rows_differ": 0,
+   "forced_rows": 400,
+   "forced_flips": {}
+  }
+ ],
+ "runs": [
+  {
+   "engine": "opa-0.70.0",
+   "full_corpus": {
+    "corpus": "open-policy-agent/opa v1/test/cases/testdata",
+    "pin": "fa9da828ec764aed7ff0ddb0ea12316edde9a8c9",
+    "engine": "opa-0.70.0",
+    "files": 2333,
+    "requests": 4347,
+    "excluded": [
+     {
+      "file": "v0/baseandvirtualdocs/test-baseandvirtualdocs-0704.yaml",
+      "case": 0,
+      "note": "baseandvirtualdocs/base/virtual: conflicts",
+      "reason": "a base/virtual document conflict the opa binary's loader refuses at load and the library evaluates",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v0/time/test-time-0947.yaml",
+      "case": 0,
+      "note": "time/time caching",
+      "reason": "uses test.sleep, a builtin the Go test harness registers and the opa binary does not have",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v0/withkeyword/test-with-builtin-mock.yaml",
+      "case": 24,
+      "note": "withkeyword/builtin-builtin: arity 0",
+      "reason": "mocks opa.runtime, which the harness answers with {} and the binary with its build information",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v1/baseandvirtualdocs/test-baseandvirtualdocs-0704.yaml",
+      "case": 0,
+      "note": "baseandvirtualdocs/base/virtual: conflicts",
+      "reason": "a base/virtual document conflict the opa binary's loader refuses at load and the library evaluates",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v1/time/test-time-0947.yaml",
+      "case": 0,
+      "note": "time/time caching",
+      "reason": "uses test.sleep, a builtin the Go test harness registers and the opa binary does not have",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v1/withkeyword/test-with-builtin-mock.yaml",
+      "case": 24,
+      "note": "withkeyword/builtin-builtin: arity 0",
+      "reason": "mocks opa.runtime, which the harness answers with {} and the binary with its build information",
+      "agreed_anyway": false
+     }
+    ],
+    "agree_decision_reason_and_error_presence": 3741,
+    "disagree": 600,
+    "result_where_corpus_expects_error": 12,
+    "error_where_corpus_expects_result": 450,
+    "of_which_without_engine_error": 110,
+    "disagreement_kinds": {
+     "RESULT|ERROR": 421,
+     "error-differs": 28,
+     "value-differs": 41,
+     "RESULT|UNDEFINED": 69,
+     "ERROR|RESULT": 12,
+     "UNDEFINED|ERROR": 29
+    },
+    "silent_boolean_direction": {
+     "true-where-corpus-expects-false": 24,
+     "false-where-corpus-expects-true": 4,
+     "non-boolean-value": 13
+    },
+    "by_outcome": {
+     "RESULT": 3154,
+     "ERROR": 919,
+     "UNDEFINED": 274
+    },
+    "disagreement_error_kinds": [
+     [
+      "unexpected keyword, must be one of [contains every if in]",
+      140
+     ],
+     [
+      "illegal token",
+      55
+     ],
+     [
+      "illegal ref (head cannot be boolean)",
+      20
+     ],
+     [
+      "unexpected not keyword: expected identifier",
+      20
+     ],
+     [
+      "undefined function strings.split_n",
+      17
+     ],
+     [
+      "undefined function uri.parse",
+      17
+     ],
+     [
+      "unexpected identifier token: expected number",
+      15
+     ],
+     [
+      "undefined function array.flatten",
+      12
+     ]
+    ],
+    "disagreements_sample": [
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 0,
+      "note": "array/flatten empty array",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 1,
+      "note": "array/flatten only arrays",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 2,
+      "note": "array/flatten single item array in array",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 3,
+      "note": "array/flatten has nesting depth 1",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 4,
+      "note": "array/flatten mixed types",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 5,
+      "note": "array/flatten type error",
+      "expected": "ERROR",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 0,
+      "note": "globmatch/single wildcard requires exactly one character",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 1,
+      "note": "globmatch/negated character-list requires exactly one character",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 2,
+      "note": "globmatch/wildcard does not consume a literal of the pattern",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 4,
+      "note": "globmatch/super wildcard does not consume a literal of the pattern",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 7,
+      "note": "globmatch/empty pattern alternative",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:8d24d5da77890080b54e920"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": [
+       "{\"x\":false}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 8,
+      "note": "globmatch/a run of wildcards matches the empty string",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:8d24d5da77890080b54e920"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": [
+       "{\"x\":false}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 9,
+      "note": "globmatch/wildcards do not cross any of multiple delimiters",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/graphql/test-graphql-basic-ast.yaml",
+      "case": 1,
+      "note": "graphql_parse_query/success-basic-ast with arguments",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-basic-ast.yaml",
+      "case": 2,
+      "note": "graphql_parse_query/success-basic-ast inline fragments and type conditions",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-basic-ast.yaml",
+      "case": 3,
+      "note": "graphql_parse_query/success-basic-ast meta fields and introspection",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-and-verify.yaml",
+      "case": 2,
+      "note": "graphql_parse_and_verify/success validation rules are independent case 2",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-and-verify.yaml",
+      "case": 4,
+      "note": "graphql_parse_and_verify/success no unused variables",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 5,
+      "note": "graphql_parse_query/success-variables are allowed in args",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 10,
+      "note": "graphql_parse_query/success-encoding multibyte characters are supported",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 11,
+      "note": "graphql_parse_query/success-keywords-allowed-where-names-are on",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 12,
+      "note": "graphql_parse_query/success-keywords-allowed-where-names-are subscription",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 13,
+      "note": "graphql_parse_query/success-keywords-allowed-where-names-are true",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 18,
+      "note": "graphql_parse_query/success-ast simple query",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 20,
+      "note": "graphql_parse_query/success-ast fragment defined variables",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     }
+    ],
+    "corpus_files_digested": 2333,
+    "seconds": 48,
+    "generated_utc": "2026-10-20T21:23:59Z"
+   },
+   "verifier_on_sample_record": {
+    "exit": 1,
+    "verdict": "NOT ESTABLISHED",
+    "replay_state": "unknown",
+    "replay_detail": "the supplied decider is opa-conformance@opa-0.70.0, the record names opa-conformance@opa-1.21.3; replaying with a different procedure proves nothing"
+   },
+   "forced_recomputation_on_sample_record": {
+    "record_names": "opa-conformance@opa-1.21.3",
+    "installed": "opa-conformance@opa-0.70.0",
+    "rows": 400,
+    "rows_differ": 52,
+    "flips": {
+     "RESULT->ERROR": 36,
+     "RESULT->UNDEFINED": 10,
+     "reason-only": 3,
+     "ERROR->RESULT": 1,
+     "UNDEFINED->ERROR": 2
+    },
+    "first_difference": {
+     "seq": 12,
+     "row": [
+      "RESULT",
+      "sha256:a3d116e54a8ff0e31e624be"
+     ],
+     "replay": [
+      "ERROR",
+      "rego_type_error"
+     ]
+    },
+    "would_fail_replay": true
+   },
+   "seconds": 53,
+   "generated_utc": "2026-10-20T21:24:04Z"
+  },
+  {
+   "engine": "opa-1.0.0",
+   "full_corpus": {
+    "corpus": "open-policy-agent/opa v1/test/cases/testdata",
+    "pin": "fa9da828ec764aed7ff0ddb0ea12316edde9a8c9",
+    "engine": "opa-1.0.0",
+    "files": 2333,
+    "requests": 4347,
+    "excluded": [
+     {
+      "file": "v0/baseandvirtualdocs/test-baseandvirtualdocs-0704.yaml",
+      "case": 0,
+      "note": "baseandvirtualdocs/base/virtual: conflicts",
+      "reason": "a base/virtual document conflict the opa binary's loader refuses at load and the library evaluates",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v0/time/test-time-0947.yaml",
+      "case": 0,
+      "note": "time/time caching",
+      "reason": "uses test.sleep, a builtin the Go test harness registers and the opa binary does not have",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v0/withkeyword/test-with-builtin-mock.yaml",
+      "case": 24,
+      "note": "withkeyword/builtin-builtin: arity 0",
+      "reason": "mocks opa.runtime, which the harness answers with {} and the binary with its build information",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v1/baseandvirtualdocs/test-baseandvirtualdocs-0704.yaml",
+      "case": 0,
+      "note": "baseandvirtualdocs/base/virtual: conflicts",
+      "reason": "a base/virtual document conflict the opa binary's loader refuses at load and the library evaluates",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v1/time/test-time-0947.yaml",
+      "case": 0,
+      "note": "time/time caching",
+      "reason": "uses test.sleep, a builtin the Go test harness registers and the opa binary does not have",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v1/withkeyword/test-with-builtin-mock.yaml",
+      "case": 24,
+      "note": "withkeyword/builtin-builtin: arity 0",
+      "reason": "mocks opa.runtime, which the harness answers with {} and the binary with its build information",
+      "agreed_anyway": false
+     }
+    ],
+    "agree_decision_reason_and_error_presence": 3767,
+    "disagree": 574,
+    "result_where_corpus_expects_error": 8,
+    "error_where_corpus_expects_result": 451,
+    "of_which_without_engine_error": 91,
+    "disagreement_kinds": {
+     "RESULT|ERROR": 422,
+     "error-differs": 24,
+     "value-differs": 41,
+     "RESULT|UNDEFINED": 50,
+     "ERROR|RESULT": 8,
+     "UNDEFINED|ERROR": 29
+    },
+    "silent_boolean_direction": {
+     "true-where-corpus-expects-false": 24,
+     "false-where-corpus-expects-true": 4,
+     "non-boolean-value": 13
+    },
+    "by_outcome": {
+     "RESULT": 3168,
+     "ERROR": 924,
+     "UNDEFINED": 255
+    },
+    "disagreement_error_kinds": [
+     [
+      "unexpected keyword, must be one of [contains every if in]",
+      140
+     ],
+     [
+      "illegal token",
+      55
+     ],
+     [
+      "illegal ref (head cannot be boolean)",
+      20
+     ],
+     [
+      "unexpected not keyword: expected identifier",
+      20
+     ],
+     [
+      "undefined function strings.split_n",
+      17
+     ],
+     [
+      "undefined function uri.parse",
+      17
+     ],
+     [
+      "unexpected identifier token: expected number",
+      15
+     ],
+     [
+      "undefined function array.flatten",
+      12
+     ]
+    ],
+    "disagreements_sample": [
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 0,
+      "note": "array/flatten empty array",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 1,
+      "note": "array/flatten only arrays",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 2,
+      "note": "array/flatten single item array in array",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 3,
+      "note": "array/flatten has nesting depth 1",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 4,
+      "note": "array/flatten mixed types",
+      "expected": "RESULT",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/array/flatten.yaml",
+      "case": 5,
+      "note": "array/flatten type error",
+      "expected": "ERROR",
+      "got": [
+       "ERROR",
+       "rego_type_error"
+      ],
+      "errors": [
+       {
+        "code": "rego_type_error",
+        "message": "undefined function array.flatten",
+        "text": "test-0.rego:3: rego_type_error: undefined function array.flatten"
+       }
+      ],
+      "want": null,
+      "result": null
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 0,
+      "note": "globmatch/single wildcard requires exactly one character",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 1,
+      "note": "globmatch/negated character-list requires exactly one character",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 2,
+      "note": "globmatch/wildcard does not consume a literal of the pattern",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 4,
+      "note": "globmatch/super wildcard does not consume a literal of the pattern",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 7,
+      "note": "globmatch/empty pattern alternative",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:8d24d5da77890080b54e920"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": [
+       "{\"x\":false}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 8,
+      "note": "globmatch/a run of wildcards matches the empty string",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:8d24d5da77890080b54e920"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": [
+       "{\"x\":false}"
+      ]
+     },
+     {
+      "file": "v0/globmatch/test-globmatch-wildcards.yaml",
+      "case": 9,
+      "note": "globmatch/wildcards do not cross any of multiple delimiters",
+      "expected": "RESULT",
+      "got": [
+       "RESULT",
+       "sha256:dd39530208b606cf34b8c53"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":false}"
+      ],
+      "result": [
+       "{\"x\":true}"
+      ]
+     },
+     {
+      "file": "v0/graphql/test-graphql-basic-ast.yaml",
+      "case": 1,
+      "note": "graphql_parse_query/success-basic-ast with arguments",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-basic-ast.yaml",
+      "case": 2,
+      "note": "graphql_parse_query/success-basic-ast inline fragments and type conditions",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-basic-ast.yaml",
+      "case": 3,
+      "note": "graphql_parse_query/success-basic-ast meta fields and introspection",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-and-verify.yaml",
+      "case": 2,
+      "note": "graphql_parse_and_verify/success validation rules are independent case 2",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-and-verify.yaml",
+      "case": 4,
+      "note": "graphql_parse_and_verify/success no unused variables",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 5,
+      "note": "graphql_parse_query/success-variables are allowed in args",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 10,
+      "note": "graphql_parse_query/success-encoding multibyte characters are supported",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 11,
+      "note": "graphql_parse_query/success-keywords-allowed-where-names-are on",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 12,
+      "note": "graphql_parse_query/success-keywords-allowed-where-names-are subscription",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 13,
+      "note": "graphql_parse_query/success-keywords-allowed-where-names-are true",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 18,
+      "note": "graphql_parse_query/success-ast simple query",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     },
+     {
+      "file": "v0/graphql/test-graphql-parse-query.yaml",
+      "case": 20,
+      "note": "graphql_parse_query/success-ast fragment defined variables",
+      "expected": "RESULT",
+      "got": [
+       "UNDEFINED",
+       "undefined"
+      ],
+      "errors": [],
+      "want": [
+       "{\"x\":true}"
+      ],
+      "result": []
+     }
+    ],
+    "corpus_files_digested": 2333,
+    "seconds": 66,
+    "generated_utc": "2026-10-20T21:23:06Z"
+   },
+   "verifier_on_sample_record": {
+    "exit": 1,
+    "verdict": "NOT ESTABLISHED",
+    "replay_state": "unknown",
+    "replay_detail": "the supplied decider is opa-conformance@opa-1.0.0, the record names opa-conformance@opa-1.21.3; replaying with a different procedure proves nothing"
+   },
+   "forced_recomputation_on_sample_record": {
+    "record_names": "opa-conformance@opa-1.21.3",
+    "installed": "opa-conformance@opa-1.0.0",
+    "rows": 400,
+    "rows_differ": 50,
+    "flips": {
+     "RESULT->ERROR": 36,
+     "RESULT->UNDEFINED": 9,
+     "reason-only": 3,
+     "UNDEFINED->ERROR": 2
+    },
+    "first_difference": {
+     "seq": 12,
+     "row": [
+      "RESULT",
+      "sha256:a3d116e54a8ff0e31e624be"
+     ],
+     "replay": [
+      "ERROR",
+      "rego_type_error"
+     ]
+    },
+    "would_fail_replay": true
+   },
+   "seconds": 71,
+   "generated_utc": "2026-10-20T21:23:11Z"
+  },
+  {
+   "engine": "opa-1.21.3",
+   "full_corpus": {
+    "corpus": "open-policy-agent/opa v1/test/cases/testdata",
+    "pin": "fa9da828ec764aed7ff0ddb0ea12316edde9a8c9",
+    "engine": "opa-1.21.3",
+    "files": 2333,
+    "requests": 4347,
+    "excluded": [
+     {
+      "file": "v0/baseandvirtualdocs/test-baseandvirtualdocs-0704.yaml",
+      "case": 0,
+      "note": "baseandvirtualdocs/base/virtual: conflicts",
+      "reason": "a base/virtual document conflict the opa binary's loader refuses at load and the library evaluates",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v0/time/test-time-0947.yaml",
+      "case": 0,
+      "note": "time/time caching",
+      "reason": "uses test.sleep, a builtin the Go test harness registers and the opa binary does not have",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v0/withkeyword/test-with-builtin-mock.yaml",
+      "case": 24,
+      "note": "withkeyword/builtin-builtin: arity 0",
+      "reason": "mocks opa.runtime, which the harness answers with {} and the binary with its build information",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v1/baseandvirtualdocs/test-baseandvirtualdocs-0704.yaml",
+      "case": 0,
+      "note": "baseandvirtualdocs/base/virtual: conflicts",
+      "reason": "a base/virtual document conflict the opa binary's loader refuses at load and the library evaluates",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v1/time/test-time-0947.yaml",
+      "case": 0,
+      "note": "time/time caching",
+      "reason": "uses test.sleep, a builtin the Go test harness registers and the opa binary does not have",
+      "agreed_anyway": false
+     },
+     {
+      "file": "v1/withkeyword/test-with-builtin-mock.yaml",
+      "case": 24,
+      "note": "withkeyword/builtin-builtin: arity 0",
+      "reason": "mocks opa.runtime, which the harness answers with {} and the binary with its build information",
+      "agreed_anyway": false
+     }
+    ],
+    "agree_decision_reason_and_error_presence": 4341,
+    "disagree": 0,
+    "result_where_corpus_expects_error": 0,
+    "error_where_corpus_expects_result": 0,
+    "of_which_without_engine_error": 0,
+    "disagreement_kinds": {},
+    "silent_boolean_direction": {},
+    "by_outcome": {
+     "RESULT": 3632,
+     "ERROR": 481,
+     "UNDEFINED": 234
+    },
+    "disagreement_error_kinds": [],
+    "disagreements_sample": [],
+    "corpus_files_digested": 2333,
+    "seconds": 54,
+    "generated_utc": "2026-10-20T21:21:48Z"
+   },
+   "verifier_on_sample_record": {
+    "exit": 0,
+    "verdict": "ESTABLISHED",
+    "replay_state": "established",
+    "replay_detail": "re-deciding all 400 retained inputs with opa-conformance@opa-1.21.3 reproduced every outcome and reason"
+   },
+   "forced_recomputation_on_sample_record": {
+    "record_names": "opa-conformance@opa-1.21.3",
+    "installed": "opa-conformance@opa-1.21.3",
+    "rows": 400,
+    "rows_differ": 0,
+    "flips": {},
+    "first_difference": null,
+    "would_fail_replay": false
+   },
+   "seconds": 65,
+   "generated_utc": "2026-10-20T21:22:00Z"
+  }
+ ],
+ "generated_utc": "2026-10-20T21:24:04Z"
+}

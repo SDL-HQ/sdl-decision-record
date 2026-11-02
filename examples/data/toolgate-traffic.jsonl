@@ -1,0 +1,40 @@
+{"ts": "2026-10-18T01:00:00Z", "input": {"tool": "send_receipt", "args": {"order_id": 396, "email": "x@example.invalid", "resend": true}}}
+{"ts": "2026-10-18T01:00:01Z", "input": {"tool": "send_receipt", "args": {"order_id": 4157, "email": "x@example.invalid", "resend": true}}}
+{"ts": "2026-10-18T01:00:02Z", "input": {"tool": "delete_all_orders", "args": {}}}
+{"ts": "2026-10-18T01:00:03Z", "input": {"tool": "get_weather", "args": {"city": "Dunedin"}}}
+{"ts": "2026-10-18T01:00:04Z", "input": {"tool": "shell", "args": {}}}
+{"ts": "2026-10-18T01:00:05Z", "input": {"tool": "lookup_order", "args": {"order_id": 965}}}
+{"ts": "2026-10-18T01:00:06Z", "input": {"tool": "get_weather", "args": {"city": "Dunedin"}}}
+{"ts": "2026-10-18T01:00:07Z", "input": {"tool": "get_weather", "args": {"city": "Auckland", "units": "metric"}}}
+{"ts": "2026-10-18T01:00:08Z", "input": {"tool": "shell", "args": {}}}
+{"ts": "2026-10-18T01:00:09Z", "input": {"tool": "lookup_order", "args": {"order_id": 2000}}}
+{"ts": "2026-10-18T01:00:10Z", "input": {"tool": "send_receipt", "args": {"order_id": 2359, "email": "x@example.invalid", "resend": true}}}
+{"ts": "2026-10-18T01:00:11Z", "input": {"tool": "shell", "args": {}}}
+{"ts": "2026-10-18T01:00:12Z", "input": {"tool": "get_weather", "args": {"city": "Auckland", "units": "metric"}}}
+{"ts": "2026-10-18T01:00:13Z", "input": {"tool": "lookup_order", "args": {"order_id": "2212"}}}
+{"ts": "2026-10-18T01:00:14Z", "input": {"tool": "delete_all_orders", "args": {}}}
+{"ts": "2026-10-18T01:00:15Z", "input": {"tool": "get_weather", "args": {"city": "Auckland", "units": "metric"}}}
+{"ts": "2026-10-18T01:00:16Z", "input": {"tool": "send_receipt", "args": {"order_id": 4045, "email": "x@example.invalid", "resend": true}}}
+{"ts": "2026-10-18T01:00:17Z", "input": {"tool": "lookup_order", "args": {"order_id": 2029}}}
+{"ts": "2026-10-18T01:00:18Z", "input": {"tool": "lookup_order", "args": {"order_id": 3291}}}
+{"ts": "2026-10-18T01:00:19Z", "input": {"tool": "lookup_order", "args": {"order_id": "1237"}}}
+{"ts": "2026-10-18T01:00:20Z", "input": {"tool": "get_weather", "args": {"city": "Auckland"}}}
+{"ts": "2026-10-18T01:00:21Z", "input": {"tool": "lookup_order", "args": {"order_id": "3433"}}}
+{"ts": "2026-10-18T01:00:22Z", "input": {"tool": "lookup_order", "args": {"order_id": "4223"}}}
+{"ts": "2026-10-18T01:00:23Z", "input": {"tool": "lookup_order", "args": {"order_id": "3269"}}}
+{"ts": "2026-10-18T01:00:24Z", "input": {"tool": "export_db", "args": {}}}
+{"ts": "2026-10-18T01:00:25Z", "input": {"tool": "lookup_order", "args": {"order_id": 1330}}}
+{"ts": "2026-10-18T01:00:26Z", "input": {"tool": "get_weather", "args": {"city": "Auckland"}}}
+{"ts": "2026-10-18T01:00:27Z", "input": {"tool": "get_weather", "args": {"city": "Auckland"}}}
+{"ts": "2026-10-18T01:00:28Z", "input": {"tool": "send_receipt", "args": {"order_id": 945, "email": "x@example.invalid", "resend": false}}}
+{"ts": "2026-10-18T01:00:29Z", "input": {"tool": "delete_all_orders", "args": {}}}
+{"ts": "2026-10-18T01:00:30Z", "input": {"tool": "get_weather", "args": {"city": "Auckland", "units": "metric"}}}
+{"ts": "2026-10-18T01:00:31Z", "input": {"tool": "send_receipt", "args": {"order_id": 222, "email": "x@example.invalid", "resend": false}}}
+{"ts": "2026-10-18T01:00:32Z", "input": {"tool": "get_weather", "args": {"city": "Auckland", "units": "metric"}}}
+{"ts": "2026-10-18T01:00:33Z", "input": {"tool": "lookup_order", "args": {"order_id": "1599"}}}
+{"ts": "2026-10-18T01:00:34Z", "input": {"tool": "lookup_order", "args": {"order_id": 1858}}}
+{"ts": "2026-10-18T01:00:35Z", "input": {"tool": "get_weather", "args": {"city": "Wellington"}}}
+{"ts": "2026-10-18T01:00:36Z", "input": {"tool": "send_receipt", "args": {"order_id": 2988, "email": "x@example.invalid", "resend": true}}}
+{"ts": "2026-10-18T01:00:37Z", "input": {"tool": "lookup_order", "args": {"order_id": 1612}}}
+{"ts": "2026-10-18T01:00:38Z", "input": {"tool": "get_weather", "args": {"city": "Wellington"}}}
+{"ts": "2026-10-18T01:00:39Z", "input": {"tool": "delete_all_orders", "args": {}}}

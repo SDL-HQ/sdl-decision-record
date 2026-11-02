@@ -1,0 +1,9 @@
+{
+ "name": "rows-rehashed-forward-resigned",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "row 4 edited, hashes recomputed forward, counts re-derived, record re-signed by the producer (replay would catch it; nothing else can)",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

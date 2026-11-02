@@ -1,0 +1,68 @@
+{
+ "agree_decision_reason_and_error_presence": 4341,
+ "by_outcome": {
+  "ERROR": 481,
+  "RESULT": 3632,
+  "UNDEFINED": 234
+ },
+ "corpus": "open-policy-agent/opa v1/test/cases/testdata",
+ "corpus_files_digested": 2333,
+ "disagree": 0,
+ "disagreement_error_kinds": [],
+ "disagreement_kinds": {},
+ "disagreements_sample": [],
+ "engine": "opa-1.21.3",
+ "error_where_corpus_expects_result": 0,
+ "excluded": [
+  {
+   "agreed_anyway": false,
+   "case": 0,
+   "file": "v0/baseandvirtualdocs/test-baseandvirtualdocs-0704.yaml",
+   "note": "baseandvirtualdocs/base/virtual: conflicts",
+   "reason": "a base/virtual document conflict the opa binary's loader refuses at load and the library evaluates"
+  },
+  {
+   "agreed_anyway": false,
+   "case": 0,
+   "file": "v0/time/test-time-0947.yaml",
+   "note": "time/time caching",
+   "reason": "uses test.sleep, a builtin the Go test harness registers and the opa binary does not have"
+  },
+  {
+   "agreed_anyway": false,
+   "case": 24,
+   "file": "v0/withkeyword/test-with-builtin-mock.yaml",
+   "note": "withkeyword/builtin-builtin: arity 0",
+   "reason": "mocks opa.runtime, which the harness answers with {} and the binary with its build information"
+  },
+  {
+   "agreed_anyway": false,
+   "case": 0,
+   "file": "v1/baseandvirtualdocs/test-baseandvirtualdocs-0704.yaml",
+   "note": "baseandvirtualdocs/base/virtual: conflicts",
+   "reason": "a base/virtual document conflict the opa binary's loader refuses at load and the library evaluates"
+  },
+  {
+   "agreed_anyway": false,
+   "case": 0,
+   "file": "v1/time/test-time-0947.yaml",
+   "note": "time/time caching",
+   "reason": "uses test.sleep, a builtin the Go test harness registers and the opa binary does not have"
+  },
+  {
+   "agreed_anyway": false,
+   "case": 24,
+   "file": "v1/withkeyword/test-with-builtin-mock.yaml",
+   "note": "withkeyword/builtin-builtin: arity 0",
+   "reason": "mocks opa.runtime, which the harness answers with {} and the binary with its build information"
+  }
+ ],
+ "files": 2333,
+ "generated_utc": "2026-10-20T21:21:48Z",
+ "of_which_without_engine_error": 0,
+ "pin": "fa9da828ec764aed7ff0ddb0ea12316edde9a8c9",
+ "requests": 4347,
+ "result_where_corpus_expects_error": 0,
+ "seconds": 54,
+ "silent_boolean_direction": {}
+}

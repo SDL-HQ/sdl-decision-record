@@ -1,0 +1,9 @@
+{
+ "name": "payload-hash-wrong",
+ "kind": "mutation",
+ "of": "toolgate-benchmark",
+ "what": "payload_hash replaced; signature untouched",
+ "options": {
+  "registry": "keys/registry.json"
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "name": "attestation-forged",
+ "kind": "mutation",
+ "of": "acceptance-attested",
+ "what": "attestation for seq 2 edited; record re-signed by the producer",
+ "options": {
+  "registry": "keys/registry.json",
+  "decider_registry": "keys/deciders.json"
+ }
+}
